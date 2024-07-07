@@ -13,7 +13,7 @@ Zoop supports the following print and play export modes
 
 Right click on a folder in Strange Eons. You will see a right click option under the Zoop menu to **Exports to print and play files**.
 
-[Print and play options](PrintAndPlayOptions.png)
+![Print and play options](PrintAndPlayOptions.png)
 
 The options are
 
