@@ -4,7 +4,7 @@ Zoop supports bulk updating a field on a selection of cards. For example, you ca
 
 ## Usage
 
-<font color="red"><bold>This feature updates your .eon files. It is recommended you backup your content before using this feature.</bold></font>
+**This feature updates your .eon files. It is recommended you backup your content before using this feature.**
 
 The bulk update option is available in the right click menu like the other functions.
 
