@@ -34,11 +34,7 @@ For the import you will see the following options
 | Option | Details |
 | ---- | --- |
 | Logging Level | Generally, you can leave this on Normal. If you want more details or feedback on the process set it to the other options for more logging. This does not impact the behaviour or output in any way |
-| Dry run | This option is enabled by default.
-
-When enabled the process will do the actual work, but not update any cards.
-
-**It is recommended you test the tool with this option to check the numbering is suitable before applying it by running again with Dry Run disabled.** |
-| File to import | The target file to import
+| Dry run | This option is enabled by default. When enabled the process will do the actual work, but not update any cards. **It is recommended you test the tool with this option to check the numbering is suitable before applying it by running again with Dry Run disabled.** |
+| File to import | The target file to import |
 
 Clicking OK will execute the import. You can see exactly what is being updated in the progress dialog.
