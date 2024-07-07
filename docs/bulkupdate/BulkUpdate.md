@@ -18,3 +18,5 @@ The options are
 | Dry run | This option is enabled by default. When enabled the process will do the actual work, but not update any cards. It is recommended you test the tool with this option to check the numbering is suitable before applying it by running again with Dry Run disabled.
 | Field to update	| The field you wish to update on the selected cards |
 | Value | The value to update the selected field to on all the selected cards. The option for this will change based on the selected fields. For example some fields will be a simple text or number input. Others will provide a specific drop down |
+
+Clicking OK will execute the update. You can see exactly what is being updated in the progress dialog.
