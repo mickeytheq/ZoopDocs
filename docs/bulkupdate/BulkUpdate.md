@@ -8,7 +8,7 @@ The bulk update option is available in the right click menu like the other funct
 
 You will see the following options:
 
-![Options dialog](bulkupdate/BulkUpdateOptions.png)
+![Options dialog](BulkUpdateOptions.png)
 
 The options are
 
