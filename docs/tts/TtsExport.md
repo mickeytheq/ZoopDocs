@@ -4,7 +4,7 @@
 
 The primary features of the TTS export mode are:
 
-- Automated export and upload of card images to a cloud host, such as imgur, imgbb or dropbox
+- Automated export from Strange Eons and upload of card images to a cloud host, such as imgur, imgbb or dropbox
 -	Creating of a Tabletop Simulator (TTS) saved object of the cards, linked to the uploaded images
 -	Updating an existing TTS saved object to support merging in incremental changes from Strange Eons
 -	Population of metadata used by SCED for snap points, clue spawning, location connections and more
