@@ -37,14 +37,14 @@ Zoop’s MPC output mode is designed to work with the chrome extension that auto
 - Landscape cards are rotated 90 degrees (front counter-clockwise, back clockwise)
 -	The collection number is used to guide the order of the output
 -	Each card title comprises
-  - The collection number of the card (zero padded to 3 digits)
-    - If a range is used, e.g. 001-003, this will be produced with each number zero padded to 3 digits
-  - Act and Agenda + number if relevant
-  - A title stripped of any special characters
-  - A unique id to handle cards where the above combination clashes
-  - An optional “x?” suffix to produce multiple copies of the same card
-  - A -1 or -2 suffix for the front and back of a card respectively
-  - A back.png/jpg file for the most common type of back (player or encounter)
-    - Other cards that have this ‘back’ type have the -2 suffixed output file omitted
+    - The collection number of the card (zero padded to 3 digits)
+        - If a range is used, e.g. 001-003, this will be produced with each number zero padded to 3 digits
+    - Act and Agenda + number if relevant
+    - A title stripped of any special characters
+    - A unique id to handle cards where the above combination clashes
+    - An optional “x?” suffix to produce multiple copies of the same card
+    - A -1 or -2 suffix for the front and back of a card respectively
+    - A back.png/jpg file for the most common type of back (player or encounter)
+        - Other cards that have this ‘back’ type have the -2 suffixed output file omitted
 
 Because of how collection numbering is used to produce a sensible output for the print and play you may wish to use Zoop’s automatic collection numbering tool before performing the output, if the source content has not already been numbered.
