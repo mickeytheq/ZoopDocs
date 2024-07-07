@@ -1,6 +1,6 @@
 # Exporting to TTS
 
-**Zoop makes a minor modification to your project’s .eon files. No problems have been discovered during testing but it is strongly recommended to make a backup of your project files/directory before using this tool**
+**Zoop makes a minor modification to your project’s .eon files. It is strongly recommended to make a backup of your project files/directory before using this tool**
 
 The primary features of the TTS export mode are:
 
