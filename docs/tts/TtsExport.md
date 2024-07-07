@@ -23,7 +23,7 @@ The update mode tracks and updates cards individually. The updating will work in
 - A card has been placed into a different deck than the original import
 - A card has been removed from a deck completely
 - A card has been placed inside a container, such as a memory bag
-- Cards have been copies from one saved object to another
+- Cards have been copied from one saved object to another
 
 In other words you are free to manipulate the individual cards as you see fit within a saved object and the update mode will still be able to locate and update them.
 
