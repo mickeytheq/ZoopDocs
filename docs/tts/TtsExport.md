@@ -62,7 +62,7 @@ The available modes are
 
 ### Image export
 
-After selecting the Zoop options you will be asked to select the options for the [ImageExport](../shared/ExportImageOptions.md)
+After selecting the Zoop options you will be asked to select the options for the [Image Export](../shared/ExportImageOptions.md)
 
 ### Output
 
