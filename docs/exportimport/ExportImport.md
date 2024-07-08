@@ -19,7 +19,7 @@ The options are
 | Logging Level | Generally, you can leave this on Normal. If you want more details or feedback on the process set it to the other options for more logging. This does not impact the behaviour or output in any way |
 | File to export | The target file path to export to. If the file does not exist it will be created. Otherwise, it will be overwritten. |
 
-Clicking OK will execute the export.
+Clicking OK will execute the export and show the [progress dialog](../shared/progressdialog/ProgressDialog.md).
 
 Because different card types have different fields the resulting Excel file will have one or more tabs to allow different structures. The tab names are relatively self-explanatory.
 
