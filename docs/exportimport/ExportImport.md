@@ -27,6 +27,8 @@ The columns with a red background **must not** edited as they are used by the im
 
 ## Usage - import
 
+**This feature updates your .eon files. It is recommended you backup your content before using this feature.**
+
 For the import you will see the following options
 
 ![Import options](ImportOptions.png)
