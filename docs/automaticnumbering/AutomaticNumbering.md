@@ -51,7 +51,7 @@ The options are
 
 After you have set the options, the process will execute and you will see the a table showing the selected cards sorted into order.
 
-![Output](CollectionNumberingReviewGrid.png)
+![Output](AutomaticNumberingReviewGrid.png)
 
 You should review the output for correctness. There is currently no ability to manually edit this ordering.
 
