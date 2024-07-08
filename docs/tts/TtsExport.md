@@ -85,3 +85,7 @@ During the update process the target TTS saved object file is scanned and any ca
 Any cards in the Strange Eons project that are not in the saved object may be added in if the relevant option has been enabled. See the detailed options above.
 
 Before Zoop updates the saved object that will the same name and location as your saved object file with <timestamp>.backup appended to the end of the filename.
+
+## Instructions
+
+You can specify [instructions](../shared/instructions/Instructions.md) on cards to alter the behaviour of the export.
