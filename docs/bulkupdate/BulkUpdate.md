@@ -21,4 +21,4 @@ The options are
 | Field to update	| The field you wish to update on the selected cards |
 | Value | The value to update the selected field to on all the selected cards. The option for this will change based on the selected fields. For example some fields will be a simple text or number input. Others will provide a specific drop down |
 
-Clicking OK will execute the update. You can see exactly what is being updated in the progress dialog.
+Clicking OK will execute the update. You can see exactly what is being updated in the [progress dialog](../shared/progressdialog/ProgressDialog.md).
