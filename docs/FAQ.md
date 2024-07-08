@@ -1,0 +1,116 @@
+# FAQ
+
+## I’m getting an error about getting a status 400 instead of 200. How do I fix that?
+
+Sometimes you will see the following error in Zoop.
+
+> java.lang.RuntimeException: Got status 400 instead of 200. Response body was {"status_code":400,"error":{"message":"Rate limit reached.","code":100},"status_txt":"Bad Request"}
+
+Note the Rate limit reached in the error.
+
+This typically occurs when you are initially using Zoop and your entire project’s files need to be uploaded.
+
+This is caused by the cloud host temporarily refusing uploads because you have upload too much data in a short period of time. To resolve this, you can either wait a period of time and try again (this can be up to a day) or create accounts for both imgur and imgbb and switch between them when you see this error. Alternatively, you can create a paid account for one of the cloud host services as these don’t have rate limits.
+
+## How do I create an imgur account to use with Zoop?
+
+If you already have an account and just need to generate an API key, skip to step 3
+
+1. Go to imgur.com and click sign-up in the top right
+2.	Fill in your details to create an account
+3.	Login to your account
+4.	Go to https://api.imgur.com/oauth2/addclient. You will see a screen titled “Register an Application”
+5.	Give it an application name. This doesn’t really matter. Call it Zoop or whatever you want
+6.	Select the “Anonymous usage without user authorisation”
+7.	Leave the authorisation callback URL blank. If you have an issue with this being required select the middle option of authorisation type first and then switch back to the anonymous option
+8.	Leave the application website blank
+9.	Enter your e-mail
+10.	Enter a description if you want
+11.	This will then show a screen with a client ID and client secret
+12.	Only the client ID is required for Zoop and is what you should enter in the API key field. If you forget the client ID you can view it by going to the Settings of your account and selecting Applications
+
+## How do I create an imgbb account to use with Zoop?
+
+If you already have an account and just need to generate an API key, skip to step 3
+
+1.	Go to https://imgbb.com/signup
+2.	Create an account
+3.	Login to your account
+4.	Go to https://api.imgbb.com/
+5.	Client Add API Key
+6.	A long alphanumeric string should appear. This is what you should enter in the API key field of Zoop
+
+## How do I use my dropbox account with Zoop?
+
+You’ll need a dropbox account first, then follow these steps
+
+1.	Go to https://www.dropbox.com/developers/apps/
+    1.	You will need to provide your dropbox login if you haven’t already
+2.	Click Create app
+3.	For Choose an API select Scoped access option
+4.	For Choose the access type you need select App folder
+    1.	Under no circumstances should you use the Full dropbox option. This will create an access token that gives access to all your files. Using App folder limits Zoop to a specific dedicated folder within your dropbox
+5.	For Name your app input a name
+    1.	I recommend that you create one app per campaign/set of content you are producing. This will avoid any name clashing with cards that have the same name in different campaigns
+6.	Click Create app. You should see a new screen with a bunch of tabs including Settings and Permissions 
+7.	Click the Permissions tab
+8.	Under Files and Folders tick the following options – this permission allows Zoop to upload files to your dropbox
+    1. 	**files.content.write**
+9.	Under Collaboration tick the following options – this permission allows Zoop to create shared links to uploaded files in your dropbox, allowing TTS to download them
+    1.	**sharing.write**
+    1.	**sharing.read**
+10.	Click the Settings tab
+11.	Under Generate access token click the Generate button
+12.	Copy the generated access token (long)
+    1.	The token is very long, you may need to scroll to get the full token
+    2.	If you change anything in the permissions tab you will need to re-generate the access token
+    3.	If you lose your access token you can just generate a new one
+13.	Use this token in the API key field of Zoop
+
+## How do I get multiple copies of a card in TTS?
+
+You can either use the encounter set unrolling feature of Zoop (see above) or manually copy the card within TTS
+
+## Does Zoop aggregate images together in a sheet/deck?
+
+No. Each card image is exported and uploaded separately.
+
+## Do I need to keep cards organised in bags in the same way Zoop exports them?
+
+No. Do whatever you want with the produced cards in terms of organisation within your TTS saved object. The Zoop update mode can find the cards wherever they are, for example in a memory bag or a deck or a deck within a memory bag.
+
+## How does Zoop update existing content?
+
+When a card is exported from Strange Eons for the first time Zoop assigns it a unique id. This id is added to the correspond card in TTS. When you use Zoop’s update mode it searches the target TTS saved object for every card with a Zoop id and finds each corresponding card with the same id in Strange Eons. Then the card information in the TTS saved object is updated to match that in Strange Eons.
+
+## Does Zoop update all the cards every time it is run?
+
+No. Only cards that have changed since the last run of Zoop are exported to TTS.
+
+## Can I add manually add scripting within TTS to cards created by Zoop?
+
+Yes. When updating cards Zoop does not touch any scripting attached to cards. When updating Zoop only updates card titles, descriptions, images and SCED metadata.
+
+## Which fields within the TTS saved object does Zoop update?
+
+For readers familiar with the TTS object structure Zoop updates the following fields
+-	GMNotes – the Zoop unique id and SCED metadata
+- FaceUrl and BackUrl in the CustomDeckModel within a card object – the front and back images of the card
+- The parent deck’s corresponding FaceUrl and BackUrl - the front and back images of the card (only when the card is within a deck in the TTS saved object)
+- Nickname field – the card’s Title in Strange Eons
+- Description – the card’s Subtitle field in Strange Eons
+- SidewaysCard – if overridden by a Zoop instruction
+
+## If Zoop fails for some reason (such as a failed image upload) how do I complete my export after the problem is fixed?
+
+Just run Zoop again. It will pick up where it left off.
+
+## How do I use a genuine double quote (“) in a Zoop instruction parameter?
+
+Some Zoop instructions require a card title to be specified. For example a card title that have double quotes in them. To specify a double quote in a Zoop instruction parameter, put the double quote in twice instead of once. For example (in red)
+
+> #TTSZ#ReplaceCardFace(ReplaceFace="Back",CopyCardTitle="""Booo"" to a goose",CopyCardFace="Back")
+
+## My dropbox API key stops working after a while. Why is this?
+
+Dropbox’s API keys expire after a short period of time (~4 hours). To resolve this go into the dropbox app console and generate a new API key. I will explore making the dropbox authentication more sophisticated but feedback on how annoying this expiry is will help me prioritise it.
