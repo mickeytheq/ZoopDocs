@@ -106,7 +106,7 @@ Parameters:
 | --- | --- |
 | CardFace | The card face you want to alter metadata for. Must be either “Front” or “Back”. If you wish to alter both the Front and the Back metadata then use two instructions, one for Front and one for Back |
 | ForceLocationType | Must be “true” or “false”. Defaults to “false”. Changes the metadata type of the card to “Location”. Use this if you wish to add icon/connection metadata to a card that is not a Location. |
-| Icons	A pipe (\|) | separated string of location symbols. |
+| Icons	| A pipe (\|) separated string of location symbols. |
 | IconsAction	| Must be “Replace” or “Append”. Replace will set the location’s icons to be exactly the value of the Icons parameter. Append will add the value of the Icons parameter to the existing icons. |
 | Connections	| A pipe (\|) separated string of location symbols that this card connects to. |
 | ConnectionsAction | Must be “Replace” or “Append”. Replace will set the location’s connections to be exactly the value of the Connections parameter. Append will add the value of the Connections parameter to the existing connections. |
