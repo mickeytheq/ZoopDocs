@@ -1,6 +1,6 @@
 # Automatic numbering - collection and encounter
 
-**This Zoop utility/tool will update your card information. Ut is strongly recommended to make a backup of your project files/directory before using this tool.**
+**This feature updates your .eon files. It is recommended you backup your content before using this feature.**
 
 Zoop has a tool to set the collection and encounter numbers of your cards instead of doing it manually.
 
