@@ -48,3 +48,7 @@ Zoop’s MPC output mode is designed to work with the chrome extension that auto
         - Other cards that have this ‘back’ type have the -2 suffixed output file omitted
 
 Because of how collection numbering is used to produce a sensible output for the print and play you may wish to use Zoop’s automatic collection numbering tool before performing the output, if the source content has not already been numbered.
+
+## Instructions
+
+You can specify [instructions](../shared/instructions/Instructions.md) on cards to alter the behaviour of the export.
