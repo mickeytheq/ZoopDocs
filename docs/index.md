@@ -16,7 +16,7 @@ The features of Zoop are
 
 ## Feedback and support
 
-Please feedback with any issues or feature requests in the [Mythos Busters discord](https://discord.com/channels/225349059689447425/1194309326291075204)
+Please feedback with any issues or feature requests in the [Mythos Busters discord](https://discord.com/channels/225349059689447425/1194309326291075204). When reporting issues please include the content of the [progress dialog](shared/progressdialog/ProgressDialog.md)
 
 ## Other useful links
 
