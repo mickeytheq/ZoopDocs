@@ -40,3 +40,7 @@ For the import you will see the following options
 | File to import | The target file to import |
 
 Clicking OK will execute the import and show the . You can see exactly what is being updated in the [progress dialog](../shared/progressdialog/ProgressDialog.md).
+
+## Instructions
+
+All [instructions](../shared/instructions/Instructions.md) will be ignored when using this tool.
