@@ -55,7 +55,7 @@ After you have set the options, the process will execute and you will see the a 
 
 You should review the output for correctness. There is currently no ability to manually edit this ordering.
 
-When you click Close you will be prompted to confirm updating the cards (only in non-Dry Run mode). Then you will see the progress dialog reporting updating each card. Note in Dry Run mode the updating is still reported but will indicate it has been skipped.
+When you click Close you will be prompted to confirm updating the cards (only in non-Dry Run mode). Then you will see the [progress dialog](../shared/progressdialog/ProgressDialog.md) reporting updating each card. Note in Dry Run mode the updating is still reported but will indicate it has been skipped.
 
 ## Ordering logic
 
