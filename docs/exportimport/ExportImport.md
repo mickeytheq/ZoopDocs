@@ -39,4 +39,4 @@ For the import you will see the following options
 | Dry run | This option is enabled by default.<br><br>When enabled the process will do the actual work, but not update any cards.<br><br>**It is recommended you test the tool with this option to check the numbering is suitable before applying it by running again with Dry Run disabled.** |
 | File to import | The target file to import |
 
-Clicking OK will execute the import. You can see exactly what is being updated in the progress dialog.
+Clicking OK will execute the import and show the . You can see exactly what is being updated in the [progress dialog](../shared/progressdialog/ProgressDialog.md).
