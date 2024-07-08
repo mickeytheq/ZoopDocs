@@ -28,7 +28,7 @@ The options are
 
 After clicking OK you will see a second set of options for selecting [image quality](../shared/imageoptions/ExportImageOptions.md).
 
-You will then see a dialog showing progress of the Zoop process. It will likely take several minutes the first time as each image has to be exported. On subsequent runs caching is used to skip any files that have not changed, significantly increasing the performance.
+You will then see a [progress dialog](../shared/progressdialog/ProgressDialog.md) showing details of the Zoop process. It will likely take several minutes the first time as each image has to be exported. On subsequent runs caching is used to skip any files that have not changed, significantly increasing the performance.
 
 ## MPC output details
 
