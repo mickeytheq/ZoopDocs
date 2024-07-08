@@ -38,7 +38,7 @@ Designers have different project structures so if you organise your content in a
 
 You will first see the option dialog
 
-![Options](CollectionNumberingOptions.png)
+![Options](AutomaticNumberingOptions.png)
 
 The options are
 
