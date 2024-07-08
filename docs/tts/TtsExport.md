@@ -50,8 +50,6 @@ The options are
 | TTS saved object filename prefix | Files are created with a default prefix of TtsZoop- followed by a timestamp. If this option is set it will replace the TtsZoop- default prefix. |
 | Update TTS saved object | The location a TTS saved object to update with your project.<br>The saved objects are stored in a folder. On windows this is usually in Documents\My Games\Tabletop Simulator\Saves\Saved Objects. This option is only available when using the update saved object mode |
 
-Click OK to proceed.
-
 ### Modes
 
 The available modes are
@@ -60,9 +58,13 @@ The available modes are
 -	Export, image upload and update existing TTS saved object – will update changes directly into an existing TTS saved object
 -	Export images – only exports images. Generally you won't use this
 
+Click OK to proceed.
+
 ### Image export
 
 After selecting the Zoop options you will be asked to select the options for the [Image Export](../shared/imageoptions/ExportImageOptions.md)
+
+You will then see the [progress dialog](../shared/progressdialog/ProgressDialog.md).
 
 ### Output
 
