@@ -107,7 +107,7 @@ Just run Zoop again. It will pick up where it left off.
 
 ## How do I use a genuine double quote (“) in a Zoop instruction parameter?
 
-Some Zoop instructions require a card title to be specified. For example a card title that have double quotes in them. To specify a double quote in a Zoop instruction parameter, put the double quote in twice instead of once. For example (in red)
+Some Zoop instructions require a card title to be specified. For example a card title that have double quotes in them. To specify a double quote in a Zoop instruction parameter, put the double quote in twice instead of once. For example 
 
 > #TTSZ#ReplaceCardFace(ReplaceFace="Back",CopyCardTitle="""Booo"" to a goose",CopyCardFace="Back")
 
