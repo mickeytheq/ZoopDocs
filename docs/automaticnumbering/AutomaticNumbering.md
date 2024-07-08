@@ -13,7 +13,7 @@ Before running the tool, some manual effort is required if you want encounter nu
 
 Here's a picture of the relevant fields.
 
-[EncounterDetails](ManualEncounterFields.png)
+![EncounterDetails](ManualEncounterFields.png)
 
 Firstly you must set the encounter set. Encounter sets can either by set via the dropdown (this requires that you have added customer encounter sets to the Strange Eons Preferences first) or as direct path to a custom image.
 
@@ -38,7 +38,7 @@ Designers have different project structures so if you organise your content in a
 
 You will first see the option dialog
 
-[Options](CollectionNumberingOptions.png)
+![Options](CollectionNumberingOptions.png)
 
 The options are
 
@@ -51,7 +51,7 @@ The options are
 
 After you have set the options, the process will execute and you will see the a table showing the selected cards sorted into order.
 
-[Output](CollectionNumberingReviewGrid.png)
+![Output](CollectionNumberingReviewGrid.png)
 
 You should review the output for correctness. There is currently no ability to manually edit this ordering.
 
