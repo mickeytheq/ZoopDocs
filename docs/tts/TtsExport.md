@@ -27,6 +27,10 @@ The update mode tracks and updates cards individually. The updating will work in
 
 In other words you are free to manipulate the individual cards as you see fit within a saved object and the update mode will still be able to locate and update them.
 
+## Instructions
+
+This tool will obey [instructions](../shared/instructions/Instructions.md) defined on the cards.
+
 ## Usage
 
 Zoop will export everything within a folder, including all sub folders. In SE, right click on the folder whose contents you wish to export. For the entire project, right click on the top most folder. The Zoop option should appear in the context menu. Click the Export content to TTS option.
