@@ -27,7 +27,7 @@ Parameters:
 
 The following example will replace the back face of the current card with the back face of the card titled “Shared Back”
 
-'#TTSZ#ReplaceCardFace(ReplaceFace="Back",CopyCardTitle="Shared Back",CopyCardFace="Back")'
+`#TTSZ#ReplaceCardFace(ReplaceFace="Back",CopyCardTitle="Shared Back",CopyCardFace="Back")`
  
 ## Instruction - Exclude
 
