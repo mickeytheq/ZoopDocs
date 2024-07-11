@@ -9,6 +9,10 @@ This mode supports multi-select of folders to export a flexible selection of you
 Zoop supports the following print and play export modes
 -	MPC – This produces files compatible with the MPC plugin for the chrome browser. The chrome plugin supports automated upload of files to the MPC website for printing
 
+## Instructions
+
+This tool will obey [instructions](../shared/instructions/Instructions.md) defined on the cards.
+
 ## Usage
 
 Right click on a folder in Strange Eons. You will see a right click option under the Zoop menu to **Exports to print and play files**.
