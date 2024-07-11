@@ -10,6 +10,21 @@ Parameter values are enclosed in double quotes. If you need a genuine double quo
 
 Instructions and their parameters are case sensitive.
 
+## Which Zoop utilities use instructions?
+
+The following utilities use/obey these instructions
+
+- TTS export
+- Print and Play export
+- Automatic numbering
+
+The following utilities ignore all instructions
+
+- Bulk update
+- Export and import
+
+The latter group ignore instructions as these utilities are designed to operate on 'raw' cards before any instruction manipulation. Whereas the former group are concerned with how cards will be presented in their final state. For example it is expected that the `Exclude` instruction would allow filtering out of cards during exports for play purposes and collection numbering. However when interacting with the raw card details that would be undesirable.
+
 ## Instruction - Replace card face
 
 This allows you to have Zoop replace a card face on a card with a face from a different card. This can be useful for locations that have a common card back or when SEs available options for double sided cards don’t meet your needs.
