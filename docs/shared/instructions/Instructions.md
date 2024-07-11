@@ -6,7 +6,7 @@ Each instruction is a single line in the comments field of the card. An instruct
 
 Parameter values are enclosed in double quotes. If you need a genuine double quote in a parameter value, put two double quotes instead of one. For example
 
-> #TTSZ#ReplaceCardFace(ReplaceFace="Back",CopyCardTitle="""Booo"" to a goose",CopyCardFace="Back")
+`#TTSZ#ReplaceCardFace(ReplaceFace="Back",CopyCardTitle="""Booo"" to a goose",CopyCardFace="Back")`
 
 Instructions and their parameters are case sensitive.
 
@@ -27,7 +27,7 @@ Parameters:
 
 The following example will replace the back face of the current card with the back face of the card titled “Shared Back”
 
-> #TTSZ#ReplaceCardFace(ReplaceFace="Back",CopyCardTitle="Shared Back",CopyCardFace="Back")
+'#TTSZ#ReplaceCardFace(ReplaceFace="Back",CopyCardTitle="Shared Back",CopyCardFace="Back")'
  
 ## Instruction - Exclude
 
@@ -41,7 +41,7 @@ Parameters: None
 
 The following example will exclude the card
 
-> #TTSZ#Exclude
+`#TTSZ#Exclude`
 
 ## Instruction – TTS Card Options
 
@@ -59,7 +59,7 @@ Parameters:
 
 The following example will set the TTS sideways flag of the card to true.
 
-> #TTSZ#TtsCardOptions(SidewaysCard="true")
+`#TTSZ#TtsCardOptions(SidewaysCard="true")`
 
 ## Instruction – Link investigator mini card
 
@@ -76,7 +76,7 @@ Parameters:
 
 ### Example
 
-> #TTSZ#InvestigatorMiniCardFor(InvestigatorCardTitle="My Custom Investigator")
+`#TTSZ#InvestigatorMiniCardFor(InvestigatorCardTitle="My Custom Investigator")`
 
 ## Instruction – Link signatures to investigator
 
@@ -92,7 +92,7 @@ Parameters:
 
 ### Example
 
-> #TTSZ#InvestigatorSignatureFor(InvestigatorCardTitle="My Custom Investigator")
+`#TTSZ#InvestigatorSignatureFor(InvestigatorCardTitle="My Custom Investigator")`
  
 ## Instruction – Specify SCED location metadata
 
@@ -115,9 +115,9 @@ Parameters:
 
 This example forces a card to act as a location that has a “MadeUp” icon and connects to the Triangle and Square location.
 
-> #TTSZ#ScedMetadataLocation(CardFace="Front",ForceLocationType="true",Icons="MadeUp",IconsAction="Replace",Connections="Triangle,Square",ConnectionsAction="Append")
+`#TTSZ#ScedMetadataLocation(CardFace="Front",ForceLocationType="true",Icons="MadeUp",IconsAction="Replace",Connections="Triangle,Square",ConnectionsAction="Append")`
 
 This example adds a connection to the location with the “MadeUp” icon, for both the front and back faces of the card.
 
-> #TTSZ#ScedMetadataLocation(CardFace="Front",Connections="MadeUp",ConnectionsAction="Append")
-> #TTSZ#ScedMetadataLocation(CardFace="Back",Connections="MadeUp",ConnectionsAction="Append")
+`#TTSZ#ScedMetadataLocation(CardFace="Front",Connections="MadeUp",ConnectionsAction="Append")`
+`#TTSZ#ScedMetadataLocation(CardFace="Back",Connections="MadeUp",ConnectionsAction="Append")`
