@@ -4,6 +4,10 @@
 
 Zoop has a tool to set the collection and encounter numbers of your cards instead of doing it manually.
 
+## Instructions
+
+This tool will obey [instructions](../shared/instructions/Instructions.md) defined on the cards.
+
 ## Preparation
 
 Before running the tool, some manual effort is required if you want encounter numbering to be updated by the tool. The manual items that must be set are
