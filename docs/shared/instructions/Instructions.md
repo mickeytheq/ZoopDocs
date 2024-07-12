@@ -35,7 +35,8 @@ Parameters:
 | Parameter key | Details |
 | --- | --- |
 | ReplaceFace | The card face you want to replace. Must be either “Front” or “Back” |
-| CopyCardTitle | The title of the card you want to copy from. This can be anywhere in the project |
+| CopyCardTitle | The title of the card you want to copy from. Must match a single card in the scope of that run of Zoop |
+| CopyCardFilename | The filename of the card you want to copy from (without the .eon extension). Must match a single card in the scope of that run of Zoop |
 | CopyCardFace | The face of the card you want to copy. Must be either “Front” or “Back” |
 
 ### Example
