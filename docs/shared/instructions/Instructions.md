@@ -88,7 +88,8 @@ Parameters:
 
 | Parameter key | Details |
 | --- | --- |
-| InvestigatorCardTitle | The title of the investigator card this mini card should be linked to |
+| InvestigatorCardTitle | The title of the front face of the card you want to link to. Must match a single card in the scope of that run of Zoop |
+| InvestigatorCardFilename | The filename of the card you want to link to (without the .eon extension). Must match a single card in the scope of that run of Zoop |
 
 ### Example
 
@@ -104,7 +105,8 @@ Parameters:
 
 | Parameter key |	Details |
 | --- | --- |
-| InvestigatorCardTitle | The title of the investigator card this mini card should be linked to |
+| InvestigatorCardTitle | The title of the front face of the card you want to link to. Must match a single card in the scope of that run of Zoop |
+| InvestigatorCardFilename | The filename of the card you want to link to (without the .eon extension). Must match a single card in the scope of that run of Zoop |
 
 ### Example
 
