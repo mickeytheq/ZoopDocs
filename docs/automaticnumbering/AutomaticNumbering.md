@@ -112,7 +112,7 @@ The ordering logic is described below. The logic is described as set of rules li
 
 ## Ordering tweaks
 
-If you use the [InvestigatorSignatureFor](../shared/instructions/Instructions.md#instruction--link-investigator-mini-card) to link signatures to their investigator, Zoop will order the linked signatures immediately after the investigator card, overriding the rules above.
+If you use the [InvestigatorSignatureFor](../shared/instructions/Instructions.md#instruction--link-signatures-to-investigator) instruction to link signatures to their investigator, Zoop will order the linked signatures immediately after the investigator card, overriding the rules above.
 
 ## Encounter set numbering
 
