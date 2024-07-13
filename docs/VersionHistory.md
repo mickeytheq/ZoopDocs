@@ -1,11 +1,20 @@
 # Version History
 
-## 2.4 (TBD)
+## 2.4 - 13th July 2024
 
-- Added new feature Bulk Update that supports updating the same field on multiple cards
-- Added new feature Export/Import that supports exporting card information to Excel for external modification and importing the changes back in
+- Requires the AHLCG plugin version 9 or later
+- Zoop manual is now online - https://mickeytheq.github.io/ZoopDocs/ - PDF manual has been retired
+- Added new feature Bulk Update that supports updating the same field on multiple cards - supports Collection and Encounter set information
+- Added new feature Export/Import that supports exporting card information to Excel for external modification and importing the changes back in - supports primarily free text fields for translation purposes
 - Cards with the Exclude instruction are now correctly excluded/ignored when running automatic numbering capability or MPC print and play capability
 - Removed support for the automatic XP box scripting on Customizable Upgrade cards. Was too unreliable/flaky
+- Fixed support for Act/Agenda portraits
+- Print and play export can now execute on a single file
+- Print and play output files now contain the act/agenda letter/deck id
+- Automatic numbering now has a sorting mode to allow ignoring encounter set numbers
+- Automatic numbering when using InvestigatorSignatureFor instruction now sorts asset/event/skill signatures before weaknesses/other signatures
+- Story cards with player/encounter cards are now handled correctly
+- Instructions that reference other cards may now use the filename instead of the card title
   
 ## 2.3 - 22nd February 2024
 
