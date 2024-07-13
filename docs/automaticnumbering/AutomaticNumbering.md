@@ -21,7 +21,13 @@ Here's a picture of the relevant fields.
 
 Firstly you must set the encounter set. Encounter sets can either by set via the dropdown (this requires that you have added customer encounter sets to the Strange Eons Preferences first) or as direct path to a custom image.
 
-Secondly you must set the number field. This field is either a single number or a 'range' of the form X-Y where X and Y are numbers. You only need to specify this field such that Zoop can understand how many copies of the field are required. For example specifying ANY single number specifies there is only 1 copy of this card in the encounter set. Entering a range specifies there is more than 1 card. For example entering 1-3 specifies there are 3 copies of the card. You do NOT need to specify contigious numbers/sequences within an encounter set. Specifying 1 for each 'single' card and '1-X' for each range card is sufficient.
+Secondly you **may** set the number field. This field is either a single number or a 'range' of the form X-Y where X and Y are numbers. You only need to specify this field such that Zoop can understand how many copies of the field are required. These are the options
+
+1. Leaving it blank specifies only a 1 copy of this card in the encounter set
+2. Entering ANY single number specifies there is only 1 copy of this card in the encounter set
+3. Entering a range specifies there is more than 1 card. For example entering 1-3 specifies there are 3 copies of the card. You do NOT need to specify contigious numbers/sequences within an encounter set. Specifying 1 for each 'single' card and '1-X' for each range card is sufficient.
+
+In general you only need to pro-actively set this field on cards that need more than 1 copy, using the third option above.
 
 You do NOT need to set the other field in the above picture which is the encounter total. Zoop will work this out for you.
 
