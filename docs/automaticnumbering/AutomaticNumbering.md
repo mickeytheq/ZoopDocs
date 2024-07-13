@@ -110,6 +110,10 @@ The ordering logic is described below. The logic is described as set of rules li
     - The numbering of the encounter set, e.g. 1-3 is before 4-5 which is before 6
 - Filename of the card in alphabetical order
 
+## Ordering tweaks
+
+If you use the [InvestigatorSignatureFor](../shared/instructions/Instructions.md#Instruction – Link signatures to investigator) to link signatures to their investigator, Zoop will order the linked signatures immediately after the investigator card, overriding the rules above.
+
 ## Encounter set numbering
 
 In addition to setting collection numbers Zoop will also set encounter numbers on cards where possible. For cards to have encounter numbers updated they must have an encounter set identity and an encounter number or range.
