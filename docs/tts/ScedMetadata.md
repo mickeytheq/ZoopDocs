@@ -6,7 +6,7 @@ Zoop populates this metadata automatically during the export and saved object cr
 
 ## Supported metadata fields
 
-Some of the available metadata fields are not populated by Zoop. The following table shows the current status of metadata field support. For those not supported – red indicates unlikely to be added in the future, yellow indicates may be added in the future.
+Some of the available metadata fields are not populated by Zoop. The following table shows the current status of metadata field support.
 
 | Metadata type | SCED metadata field | Support |
 | ----- | ------ | ----- |
