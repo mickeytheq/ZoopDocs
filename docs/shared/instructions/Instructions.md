@@ -139,3 +139,19 @@ This example adds a connection to the location with the “MadeUp” icon, for b
 
 `#TTSZ#ScedMetadataLocation(CardFace="Front",Connections="MadeUp",ConnectionsAction="Append")`
 `#TTSZ#ScedMetadataLocation(CardFace="Back",Connections="MadeUp",ConnectionsAction="Append")`
+
+## Instruction – SCED metadata - extra token
+
+This instruction allows specifying the extraToken metadata used by the SCED mod to spawn additional action tokens for investigators. This instruction is only valid on investigator cards.
+
+Instruction key: ScedMetadataExtraToken
+
+Parameters:
+
+| Parameter key	| Details |
+| --- | --- |
+| ExtraToken | The string you want to be placed in the extraToken metadata field
+
+### Example
+
+`#TTSZ#ScedMetadataExtraToken(ExtraToken="Fight")`
