@@ -114,7 +114,7 @@ Parameters:
  
 ## Instruction – Specify SCED location metadata
 
-This instruction allows overriding some of the default SCED metadata that determines how locations functions. The SCED mod automatically draws lines between connecting locations. You can use this instruction to add/replace a location’s icons and connections and/or force a non-location card to act like a location for connection purposes.
+This instruction allows overriding some of the default SCED metadata that determines how locations functions. The SCED mod automatically draws lines between connecting locations. You can use this instruction to add/replace a location’s icons and connections and/or force a non-location card to act like a location for connection purposes. See [SCED metadata](../../tts/ScedMetadata.md) for further details on metadata.
 
 Instruction key: ScedMetadataLocation
 
@@ -142,7 +142,7 @@ This example adds a connection to the location with the “MadeUp” icon, for b
 
 ## Instruction – SCED metadata - extra token
 
-This instruction allows specifying the extraToken metadata used by the SCED mod to spawn additional action tokens for investigators. See [SCED metadata](../../tts/ScedMetadata.md) for further details. This instruction is only valid on investigator cards.
+This instruction allows specifying the extraToken metadata used by the SCED mod to spawn additional action tokens for investigators. This instruction is only valid on investigator cards. See [SCED metadata](../../tts/ScedMetadata.md) for further details on metadata.
 
 Instruction key: ScedMetadataExtraToken
 
