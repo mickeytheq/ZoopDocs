@@ -76,7 +76,7 @@ You will then see the [progress dialog](../shared/progressdialog/ProgressDialog.
 
 If you have selected the option to create a new TTS saved object, on completion a TTS saved object will be created in the specified folder. Open TTS and open the saved object menu. You should find a file called TtsZoop-<timestamp>. Where <timestamp> is the date/time the export was done in a basic format.
 
-The created content is 1 bag for each folder in your SE project. Each bag will contain further bags for any sub-folders in each folder and a single deck of cards for any cards in that folder.
+The created content is 1 bag for each folder in your SE project. Each bag will contain one or more decks of cards. Cards are grouped by their size and orientation. For example investigator cards are sized differently than other landscape cards so will appear in their own deck. Each bag will also contain further bags for any sub-folders in the parent folder.
 
 **Updating an existing TTS saved object**
 
@@ -86,7 +86,7 @@ Zoop assigns a unique id to each card in SE when it runs. This id does not chang
 
 During the update process the target TTS saved object file is scanned and any cards that have an id are matched back to the corresponding card in SE. The card data between the two is compared to see if anything has changed (e.g. card title, description, front face image or back face image). If anything has changed Zoop updates the card information in the saved object.
 
-Any cards in the Strange Eons project that are not in the saved object may be added in if the relevant option has been enabled. See the detailed options above.
+Any cards in the Strange Eons project that are not in the saved object may be added in if the **Insert missing cards during update** option has been enabled. See the options above for more details on enabling this.
 
 Before Zoop updates the saved object that will the same name and location as your saved object file with <timestamp>.backup appended to the end of the filename.
 
