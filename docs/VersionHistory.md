@@ -1,5 +1,17 @@
 # Version History
 
+## 2.5 - 6th September 2024
+
+- Addeed new feature that adds Cloudinary to the options for uploading images
+- Added proper support for Player Purple (customizable upgrade card back) and Concealed card backs for both TTS and Print and Play
+- Exporting to TTS investigator cards are now sized consistently with the existing mod investigators
+- Exporting to TTS now splits cards into decks according to their orientation and size/scale. For example investigators are grouped separately from other landscape cards and Investigator minicards and concealed cards are grouped separately from other portrait cards
+- Added ScedMetadataExtraToken instruction to allow authors to specify the extra action token metadata for use in the mod
+- Investigator minicards now gain the title of the corresponding investigator when the InvestigatorMiniCardFor instruction is used
+- Investigator minicards now have the Minicard tag
+- Fixed a bug where SCED metadata only mode produced an error
+- Fixed a bug where empty parameters ("") in instructions were not handled correctly
+
 ## 2.4 - 13th July 2024
 
 - Requires the AHLCG plugin version 9 or later
