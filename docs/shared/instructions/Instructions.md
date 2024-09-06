@@ -142,7 +142,7 @@ This example adds a connection to the location with the “MadeUp” icon, for b
 
 ## Instruction – SCED metadata - extra token
 
-This instruction allows specifying the extraToken metadata used by the SCED mod to spawn additional action tokens for investigators. This instruction is only valid on investigator cards.
+This instruction allows specifying the extraToken metadata used by the SCED mod to spawn additional action tokens for investigators. See (../../tts/ScedMetadata.md) for further details. This instruction is only valid on investigator cards.
 
 Instruction key: ScedMetadataExtraToken
 
