@@ -1,5 +1,18 @@
 # Version History
 
+## 2.6 - 25th February 2025
+
+- Dropbox (OAuth) image upload has been added which automatically refreshes access tokens. Existing Dropbox upload support is deprecated and will be removed in a future version
+- Local folder image upload support has been added
+- Added Print Ready print and play mode that outputs the card images simply to a local folder
+- Added SwapCardFaces instruction to swap front and back of a card
+- Added Quantity instruction that allows an author to specify how many copies of a card should be created to override defaults
+- Image tags are striped from chaos token effect descriptions before importing into SCED metadata
+- Copyright field is now supported by bulk update
+- Investigator title has been added to the MPC filename output
+- Investigator title has been added to the MPC filename output for investigator mini-cards provided the mini-card is linked via the relevant instruction
+- Fixed a bug where investigator cards were not supported by class in the same way as player cards
+
 ## 2.5 - 6th September 2024
 
 - Added new feature that adds Cloudinary to the options for uploading images
