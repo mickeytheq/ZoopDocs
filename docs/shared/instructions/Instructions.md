@@ -45,6 +45,20 @@ The following example will replace the back face of the current card with the ba
 
 `#TTSZ#ReplaceCardFace(ReplaceFace="Back",CopyCardTitle="Shared Back",CopyCardFace="Back")`
  
+## Instruction - Swap card faces
+
+This instruction swaps the front and back of the card faces. Primarily useful when Strange Eons supports the combination of front/back you want, e.g. Story and Location, but you want the front to be the back and vice versa.
+
+Instruction key: SwapFaces
+
+Parameters: None
+
+### Example
+
+The following example will replace the back face of the current card with the back face of the card titled “Shared Back”
+
+`#TTSZ#ReplaceCardFace(ReplaceFace="Back",CopyCardTitle="Shared Back",CopyCardFace="Back")`
+ 
 ## Instruction - Exclude
 
 This allows you to have Zoop exclude the card from the export process. This can be useful if the card is a work in progress or is used as part of a card such as the source of the ReplaceCardFace instruction.
