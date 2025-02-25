@@ -69,6 +69,7 @@ You’ll need a dropbox account first, then follow these steps
 15. In the browser you will see an authorisation token. Copy this from the browser and paste it into the Zoop dialog asking for it
 16. Click OK on the dialog
     1. Returning to the options dialog the **Access token** editor should now show **Access token created**
+17. You should **not** need to perform steps 14-16 again. The access token should automatically refresh on future uses of Zoop
 
 ## How do I use my dropbox account with Zoop (Short lived token - deprecated)?
 
