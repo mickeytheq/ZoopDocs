@@ -73,6 +73,25 @@ The following example will exclude the card
 
 `#TTSZ#Exclude`
 
+## Instruction - Quantity
+
+This allows you to specify how many copies of a card should be produced by Zoop. This is used by the export functions and automatic numbering.
+
+Note that Zoop has default behaviour for card quantity that will be correct most of the time but on occasion an override is necessary. For example signature cards default to 1 copy but sometimes, e.g. Stella, you may want more than 1.
+
+Instruction key: Quantity
+Parameters:
+
+| Parameter key | Details |
+| --- | --- |
+| Quantity | Desired number of copies of the card |
+
+### Example
+
+The following example will product 3 copies of the card rather than the default.
+
+`#TTSZ#Quantity(Quantity="3")`
+
 ## Instruction – TTS Card Options
 
 This allows you to override specific properties of the resulting TTS card. Zoop has default logic which this instruction allows you to override. This is a more technical instruction that requires knowledge of how TTS manages card objects.
