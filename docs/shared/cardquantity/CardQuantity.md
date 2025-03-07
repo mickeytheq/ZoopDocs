@@ -16,7 +16,6 @@ Print and play has much stricter requirements on individual card quantity. Becau
 
 Zoop implementes the following logic to generate card quantity.
 
-- If the [Quantity instruction](../instructions/Instructions.md#instruction---quantity) instruction is specified that is used
 - If the card is identified as an investigator signature, 1 copy is created
 - If the card has the exceptional keyword, 1 copy is created
 - If the card has the myriad keyword, 3 copies are created
@@ -24,4 +23,6 @@ Zoop implementes the following logic to generate card quantity.
 - If the card is an Asset, Event or Skill, 2 copies are created
 - Otherwise 1 copy is created
 
-If multiple of these are true then the highest in the list above will be used. Therefore the [Quantity instruction](../instructions/Instructions.md#instruction---quantity) has the highest priority.
+If multiple of these are true then the highest in the list above will be used.
+
+In addition the [Quantity instruction](../instructions/Instructions.md#instruction---quantity) can be used to override the above defaults. For example if you were trying to create an investigator with 3 copies of their signature, like Stella, then you would use the Quantity instruction to override the default of 1 to 3.
