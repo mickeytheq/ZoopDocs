@@ -24,4 +24,4 @@ Zoop implementes the following logic to generate card quantity.
 - If the card is an Asset, Event or Skill, 2 copies are created
 - Otherwise 1 copy is created
 
-If multiple of these are true then the highest in the list above will be used. Therefore the Quantity instruction has the highest priority.
+If multiple of these are true then the highest in the list above will be used. Therefore the [Quantity instruction](../instructions/Instructions.md#instruction---quantity) has the highest priority.
