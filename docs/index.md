@@ -16,7 +16,7 @@ The primary features of Zoop are
 
 Other features include
 
-- [Encounter card unrolling](shared/encountersetunrolling/EncounterSetUnrolling.md) - create multiple copies of a card from a single source card
+- [Card quantity](shared/cardquantity/CardQuantity.html) and [Encounter card unrolling](shared/encountersetunrolling/EncounterSetUnrolling.md) - create multiple copies of a card from a single source card
 - [Campaign guide creation](shared/campaignguides/CampaignGuides.md) - creation of campaign guide PDFs
 - [Instructions](shared/instructions/Instructions.md) - alter behaviour of Zoop based on user specified rules. For example swapping one face on a card for another
 
