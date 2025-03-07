@@ -96,6 +96,8 @@ The following example will product 3 copies of the card rather than the default.
 
 This allows you to override specific properties of the resulting TTS card. Zoop has default logic which this instruction allows you to override. This is a more technical instruction that requires knowledge of how TTS manages card objects.
 
+**Applies to TTS exports only**
+
 Instruction key: TtsCardOptions
 
 Parameters:
@@ -149,6 +151,8 @@ Parameters:
 
 This instruction allows overriding some of the default SCED metadata that determines how locations functions. The SCED mod automatically draws lines between connecting locations. You can use this instruction to add/replace a location’s icons and connections and/or force a non-location card to act like a location for connection purposes. See [SCED metadata](../../tts/ScedMetadata.md) for further details on metadata.
 
+**Applies to TTS exports only**
+
 Instruction key: ScedMetadataLocation
 
 Parameters:
@@ -176,6 +180,8 @@ This example adds a connection to the location with the “MadeUp” icon, for b
 ## Instruction – SCED metadata - extra token
 
 This instruction allows specifying the extraToken metadata used by the SCED mod to spawn additional action tokens for investigators. This instruction is only valid on investigator cards. See [SCED metadata](../../tts/ScedMetadata.md) for further details on metadata.
+
+**Applies to TTS exports only**
 
 Instruction key: ScedMetadataExtraToken
 
