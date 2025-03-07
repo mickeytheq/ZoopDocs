@@ -12,7 +12,7 @@ For player cards, typically homebrew authors only want a single copy of each car
 
 ## Print and play
 
-Print and play has much stricter requirements on individual card quantity. Because the desire is to have a full set of cards to play in person generate the correct quantity of cards is important.
+Print and play has much stricter requirements on individual card quantity. Because the desire is to have a full set of cards to play in person generating the correct quantity of cards is important.
 
 Zoop implementes the following logic to generate card quantity.
 
