@@ -16,7 +16,7 @@ Print and play has much stricter requirements on individual card quantity. Becau
 
 Zoop implementes the following logic to generate card quantity.
 
-- If the Quantity instruction is specified that is used
+- If the [Quantity instruction](../instructions/Instructions.md#instruction---quantity) instruction is specified that is used
 - If the card is identified as an investigator signature, 1 copy is created
 - If the card has the exceptional keyword, 1 copy is created
 - If the card has the myriad keyword, 3 copies are created
