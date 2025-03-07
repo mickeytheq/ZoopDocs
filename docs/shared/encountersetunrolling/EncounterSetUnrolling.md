@@ -1,4 +1,4 @@
-# Encounter set unrolling
+# Encounter card unrolling
 
 See [Card Quantity](../cardquantity/CardQuantity.md) for full details on how Zoop calculates card quantities.
 
