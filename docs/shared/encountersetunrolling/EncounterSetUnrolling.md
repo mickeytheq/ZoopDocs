@@ -1,5 +1,7 @@
 # Encounter set unrolling
 
+See [Card Quantity](../cardquantity/CardQuantity.md) for full details on how Zoop calculates card quantities.
+
 If you want Zoop to create multiple copies of a card when exporting you can take advantage of the encounter set number field in SE. Here’s an example
 
 ![image](https://github.com/mickeytheq/ZoopDocs/assets/42071167/7b971db5-836a-471a-8264-a8b310cb4309)
