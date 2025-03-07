@@ -1,4 +1,4 @@
-# Card Quantity
+# Card quantity
 
 When exporting, Zoop has functionality to generate the correct quantity of cards based on default logic and user inputs.
 
