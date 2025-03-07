@@ -79,6 +79,8 @@ This allows you to specify how many copies of a card should be produced by Zoop.
 
 Note that Zoop has default behaviour for card quantity that will be correct most of the time but on occasion an override is necessary. For example signature cards default to 1 copy but sometimes, e.g. Stella, you may want more than 1.
 
+**Not used by TTS exports**
+
 Instruction key: Quantity
 Parameters:
 
