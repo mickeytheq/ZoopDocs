@@ -146,4 +146,4 @@ Some Zoop instructions require a card title to be specified. For example a card 
 
 ## My dropbox API key stops working after a while. Why is this?
 
-Dropbox’s API keys expire after a short period of time (~4 hours). To resolve this go into the dropbox app console and generate a new API key. I will explore making the dropbox authentication more sophisticated but feedback on how annoying this expiry is will help me prioritise it.
+Dropbox’s API keys expire after a short period of time (~4 hours). To resolve this go into the dropbox app console and generate a new API key. Dropbox OAuth is now supported by Zoop where after the initial authentication keys are automatically refreshed.
