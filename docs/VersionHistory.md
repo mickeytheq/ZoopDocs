@@ -1,5 +1,12 @@
 # Version History
 
+## 2.7 - 10th March 2025
+
+- FTP image upload support has been added. Supports plain FTP and FTPS (FTP with SSL/TLS)
+- TTS saved object files are now saved as UTF-8 to better support non-ASCII characters
+- Fixed a bug where if victory was only on the back face of a card the metadata was not generated
+- Add support for Enemy Location cards - which are just treated as locations for metadata purposes
+
 ## 2.6 - 25th February 2025
 
 - Dropbox (OAuth) image upload has been added which automatically refreshes access tokens. Existing Dropbox upload support is deprecated and will be removed in a future version
