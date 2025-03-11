@@ -41,3 +41,4 @@ Please feedback with any issues or feature requests in the [Mythos Busters disco
 - jaqenZann for assistance understanding the workings of the AHLCG plugin
 - Frying Tonight for testing and feedback
 - BranKaLeon for testing and feedback of the export/import capability
+- Whimsical for testing and feedback
