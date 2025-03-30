@@ -149,7 +149,41 @@ Parameters:
 ### Example
 
 `#TTSZ#InvestigatorSignatureFor(InvestigatorCardTitle="My Custom Investigator")`
- 
+
+## Instruction - Investigator deckbuilding option
+
+This allows you to specify the deckbuilding options for an investigator. This instruction is only valid on investigator cards.
+
+You can, and oftem will, need to specify multiple instances of this instruction on a single investigator.
+
+Instruction key: DeckbuildingOption
+
+Parameters:
+
+| Parameter key |	Details |
+| --- | --- |
+| PlayerCardClasses | A comma delimited list of card classes. Valid options are Guardian, Rogue, Mystic, Seeker, Suvivor and Neutral |
+| MinimumLevel | The minimum inclusive level permitted |
+| MaximumLevel | The maximum inclusive level permitted |
+| CardCountLimit | Tha maximum number of cards of this condition permitted |
+| Traits | A comma delimited list of traits. All traits begin with a capital letter |
+| PlayerCardTypes | A comma delimited list of card types. Valid options are Asset, Event and Skill |
+| Not | Must be "true" or "false". If true then the rules defined by this option are an exclusion |
+
+Some example of official investigators below
+
+**Roland Banks**
+
+`#TTSZ#DeckbuildingOption(PlayerCardClasses="Guardian,Neutral",MinimumLevel="0",MaximumLevel="5")`
+`#TTSZ#DeckbuildingOption(PlayerCardClasses="Seeker",MinimumLevel="0",MaximumLevel="2")`
+
+**Zoe Samaras**
+
+`#TTSZ#DeckbuildingOption(PlayerCardClasses="Guardian",MinimumLevel=0,MaximumLevel=5)`
+`#TTSZ#DeckbuildingOption(MinimumLevel=0,MaximumLevel=0,CardCountLimit=5)`
+
+
+
 ## Instruction – Specify SCED location metadata
 
 This instruction allows overriding some of the default SCED metadata that determines how locations functions. The SCED mod automatically draws lines between connecting locations. You can use this instruction to add/replace a location’s icons and connections and/or force a non-location card to act like a location for connection purposes. See [SCED metadata](../../tts/ScedMetadata.md) for further details on metadata.
@@ -157,8 +191,6 @@ This instruction allows overriding some of the default SCED metadata that determ
 **Applies to TTS exports only**
 
 Instruction key: ScedMetadataLocation
-
-Parameters:
 
 | Parameter key	| Details |
 | --- | --- |
