@@ -10,7 +10,8 @@ The primary features of Zoop are
 
 - [Export to TTS](tts/TtsExport.md) - Export of card images, upload of card images to a cloud host and creation/updates to a TTS saved object for use within the SCED TTS mod for Arkham LCG. Includes creation of the [SCED metadata information](tts/ScedMetadata.md).
 - [Print and Play export](printandplay/PrintAndPlay.md) - Export of card images to a local directory for Print and Play purposes. Provides output compatible with the [MPC chrome extension](https://chromewebstore.google.com/detail/mpc-project-helper/oigcfklkajlgkeblpngmbgjniiejabko?hl=en-GB&pli=1)
-- [Automatic numbering](automaticnumbering/AutomaticNumbering.md) - Adds collection and encounter numbering to cards.
+- [Card database export](carddatabaseexport/CardDatabaseExport.md) - Export of card data with images to a database format compatible with online card databases such as [arkham.build](https://arkham.build).
+- [Automatic numbering](automaticnumbering/AutomaticNumbering.md) - Automatically generates collection and encounter numbering for your cards.
 - [Bulk update](bulkupdate/BulkUpdate.md) - Bulk update a selection of cards on multiple cards. For example updating the Collection or Encounter Set information across a set of cards or an entire project.
 - [Export and import](exportimport/ExportImport.md) - Export and import of card details to/from Excel for external editing. Useful for translating to a different language in a more convenient format than within Strange Eons.
 
