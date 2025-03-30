@@ -168,21 +168,70 @@ Parameters:
 | CardCountLimit | Tha maximum number of cards of this condition permitted |
 | Traits | A comma delimited list of traits. All traits begin with a capital letter |
 | PlayerCardTypes | A comma delimited list of card types. Valid options are Asset, Event and Skill |
-| Not | Must be "true" or "false". If true then the rules defined by this option are an exclusion |
+| Exclude | Must be "true" or "false". If true then the rules defined by this option are an exclusion |
 
 Some example of official investigators below
 
 **Roland Banks**
+
+Straight-forward classes and levels
 
 `#TTSZ#DeckbuildingOption(PlayerCardClasses="Guardian,Neutral",MinimumLevel="0",MaximumLevel="5")`
 `#TTSZ#DeckbuildingOption(PlayerCardClasses="Seeker",MinimumLevel="0",MaximumLevel="2")`
 
 **Zoe Samaras**
 
-`#TTSZ#DeckbuildingOption(PlayerCardClasses="Guardian",MinimumLevel=0,MaximumLevel=5)`
+Example of a limited number of cards from level 0
+
+`#TTSZ#DeckbuildingOption(PlayerCardClasses="Guardian,Neutral",MinimumLevel=0,MaximumLevel=5)`
 `#TTSZ#DeckbuildingOption(MinimumLevel=0,MaximumLevel=0,CardCountLimit=5)`
 
+**Preson Fairmont**
 
+Exclusion example
+
+`#TTSZ#DeckbuildingOption(PlayerCardClasses="Rogue,Neutral",MinimumLevel=0,MaximumLevel=5)`
+`#TTSZ#DeckbuildingOption(PlayerCardClasses="Survivor",MinimumLevel=0,MaximumLevel=2)`
+`#TTSZ#DeckbuildingOption(Exclude="true",Traits="Illicit")`
+
+**Amanda Sharpe**
+
+Trait + card type example
+
+`#TTSZ#DeckbuildingOption(PlayerCardClasses="Seeker,Neutral",MinimumLevel=0,MaximumLevel=5)`
+`#TTSZ#DeckbuildingOption(Traits="Practiced",PlayerCardTypes="Skill",MinimumLevel=0,MaximumLevel=3)`
+
+**Finn Edwards**
+
+Mix of traits, levels and classes
+
+`#TTSZ#DeckbuildingOption(PlayerCardClasses="Neutral",MinimumLevel=0,MaximumLevel=5)`
+`#TTSZ#DeckbuildingOption(PlayerCardClasses="Rogue",MinimumLevel=0,MaximumLevel=3)`
+`#TTSZ#DeckbuildingOption(Traits="Illicit",MinimumLevel=0,MaximumLevel=5)`
+`#TTSZ#DeckbuildingOption(PlayerCardClasses="Seeker,Survivor",MinimumLevel=0,MaximumLevel=0,CardCountLimit=5)`
+
+**Bob Jenkins**
+
+Weird level zero options
+
+`#TTSZ#DeckbuildingOption(PlayerCardClasses="Neutral",MinimumLevel=0,MaximumLevel=5)`
+`#TTSZ#DeckbuildingOption(PlayerCardClasses="Survivor",MinimumLevel=0,MaximumLevel=0)`
+`#TTSZ#DeckbuildingOption(PlayerCardClasses="Rogue",MinimumLevel=1,MaximumLevel=5)`
+`#TTSZ#DeckbuildingOption(PlayerCardClasses="Rogue",MinimumLevel=0,MaximumLevel=0,CardCountLimit=5)`
+
+## Instruction - DeckbuildingRestrictions
+
+This allows you to specify the deckbuilding restrictions for an investigator. This instruction is only valid on investigator cards.
+
+Instruction key: DeckbuildingRestrictions
+
+Parameters:
+
+| Parameter key |	Details |
+| --- | --- |
+| DeckSize | Number of cards in the deck |
+
+`#TTSZ#DeckbuildingRestrictions(DeckSize=30)`
 
 ## Instruction – Specify SCED location metadata
 
