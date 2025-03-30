@@ -154,7 +154,7 @@ Parameters:
 
 This allows you to specify the deckbuilding options for an investigator. This instruction is only valid on investigator cards.
 
-You can, and oftem will, need to specify multiple instances of this instruction on a single investigator.
+You can, and generally will need to, specify multiple instances of this instruction on a each investigator.
 
 Instruction key: DeckbuildingOption
 
