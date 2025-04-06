@@ -162,7 +162,7 @@ Parameters:
 
 | Parameter key |	Details |
 | --- | --- |
-| PlayerCardClasses | A comma delimited list of card classes. Valid options are Guardian, Rogue, Mystic, Seeker, Suvivor and Neutral |
+| Classes | A comma delimited list of card classes. Valid options are Guardian, Rogue, Mystic, Seeker, Suvivor and Neutral |
 | MinimumLevel | The minimum inclusive level permitted |
 | MaximumLevel | The maximum inclusive level permitted |
 | CardCountLimit | Tha maximum number of cards of this condition permitted |
@@ -176,48 +176,48 @@ Some example of official investigators below
 
 Straight-forward classes and levels
 
-`#TTSZ#DeckbuildingOption(PlayerCardClasses="Guardian,Neutral",MinimumLevel="0",MaximumLevel="5")`
-`#TTSZ#DeckbuildingOption(PlayerCardClasses="Seeker",MinimumLevel="0",MaximumLevel="2")`
+`#TTSZ#DeckbuildingOption(Classes="Guardian,Neutral",MinimumLevel="0",MaximumLevel="5")`
+`#TTSZ#DeckbuildingOption(Classes="Seeker",MinimumLevel="0",MaximumLevel="2")`
 
 **Zoe Samaras**
 
 Example of a limited number of cards from level 0
 
-`#TTSZ#DeckbuildingOption(PlayerCardClasses="Guardian,Neutral",MinimumLevel=0,MaximumLevel=5)`
+`#TTSZ#DeckbuildingOption(Classes="Guardian,Neutral",MinimumLevel=0,MaximumLevel=5)`
 `#TTSZ#DeckbuildingOption(MinimumLevel=0,MaximumLevel=0,CardCountLimit=5)`
 
 **Preson Fairmont**
 
 Exclusion example
 
-`#TTSZ#DeckbuildingOption(PlayerCardClasses="Rogue,Neutral",MinimumLevel=0,MaximumLevel=5)`
-`#TTSZ#DeckbuildingOption(PlayerCardClasses="Survivor",MinimumLevel=0,MaximumLevel=2)`
+`#TTSZ#DeckbuildingOption(Classes="Rogue,Neutral",MinimumLevel=0,MaximumLevel=5)`
+`#TTSZ#DeckbuildingOption(Classes="Survivor",MinimumLevel=0,MaximumLevel=2)`
 `#TTSZ#DeckbuildingOption(Exclude="true",Traits="Illicit")`
 
 **Amanda Sharpe**
 
 Trait + card type example
 
-`#TTSZ#DeckbuildingOption(PlayerCardClasses="Seeker,Neutral",MinimumLevel=0,MaximumLevel=5)`
+`#TTSZ#DeckbuildingOption(Classes="Seeker,Neutral",MinimumLevel=0,MaximumLevel=5)`
 `#TTSZ#DeckbuildingOption(Traits="Practiced",PlayerCardTypes="Skill",MinimumLevel=0,MaximumLevel=3)`
 
 **Finn Edwards**
 
 Mix of traits, levels and classes
 
-`#TTSZ#DeckbuildingOption(PlayerCardClasses="Neutral",MinimumLevel=0,MaximumLevel=5)`
-`#TTSZ#DeckbuildingOption(PlayerCardClasses="Rogue",MinimumLevel=0,MaximumLevel=3)`
+`#TTSZ#DeckbuildingOption(Classes="Neutral",MinimumLevel=0,MaximumLevel=5)`
+`#TTSZ#DeckbuildingOption(Classes="Rogue",MinimumLevel=0,MaximumLevel=3)`
 `#TTSZ#DeckbuildingOption(Traits="Illicit",MinimumLevel=0,MaximumLevel=5)`
-`#TTSZ#DeckbuildingOption(PlayerCardClasses="Seeker,Survivor",MinimumLevel=0,MaximumLevel=0,CardCountLimit=5)`
+`#TTSZ#DeckbuildingOption(Classes="Seeker,Survivor",MinimumLevel=0,MaximumLevel=0,CardCountLimit=5)`
 
 **Bob Jenkins**
 
 Weird level zero options
 
-`#TTSZ#DeckbuildingOption(PlayerCardClasses="Neutral",MinimumLevel=0,MaximumLevel=5)`
-`#TTSZ#DeckbuildingOption(PlayerCardClasses="Survivor",MinimumLevel=0,MaximumLevel=0)`
-`#TTSZ#DeckbuildingOption(PlayerCardClasses="Rogue",MinimumLevel=1,MaximumLevel=5)`
-`#TTSZ#DeckbuildingOption(PlayerCardClasses="Rogue",MinimumLevel=0,MaximumLevel=0,CardCountLimit=5)`
+`#TTSZ#DeckbuildingOption(Classes="Neutral",MinimumLevel=0,MaximumLevel=5)`
+`#TTSZ#DeckbuildingOption(Classes="Survivor",MinimumLevel=0,MaximumLevel=0)`
+`#TTSZ#DeckbuildingOption(Classes="Rogue",MinimumLevel=1,MaximumLevel=5)`
+`#TTSZ#DeckbuildingOption(Classes="Rogue",MinimumLevel=0,MaximumLevel=0,CardCountLimit=5)`
 
 ## Instruction - DeckbuildingRestrictions
 
