@@ -232,7 +232,25 @@ Parameters:
 | --- | --- |
 | DeckSize | Number of cards in the deck |
 
+### Example
+
 `#TTSZ#DeckbuildingRestrictions(DeckSize=30)`
+
+## Instruction - Override encounter set details
+
+This allows you to override Zoop defaults for an encounter set. See [Encounter Sets](../../encounterset/EncounterSet.md) for more information.
+
+Instruction key: EncounterSet
+
+Parameters:
+
+| Parameter key |	Details |
+| --- | --- |
+| Name | Override name of the encounter set |
+
+### Example
+
+`#TTSZ#EncounterSet(Name="Chilling Cold")`
 
 ## Instruction – Specify SCED location metadata
 
