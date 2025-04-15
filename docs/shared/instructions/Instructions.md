@@ -157,6 +157,8 @@ This allows you to specify the deckbuilding options for an investigator. This in
 
 You can, and generally will need to, specify multiple instances of this instruction on a each investigator.
 
+**Secondary class selection and other more complicated deckbuilding is not currently supported**. If you have an deckbuilding that is not supported then the workaround is to specify a single DeckbuildingOption with all classes listed and levels 0 to 5. This will allow all cards to be available and the player will have to self-manage following the deck-building rules.
+
 Instruction key: DeckbuildingOption
 
 Parameters:
