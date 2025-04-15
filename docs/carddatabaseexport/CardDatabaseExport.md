@@ -32,8 +32,8 @@ The following are not currently supported
 
 The following are needed by card databases however cannot be extracted automatically by Zoop
 
-- Investigator deckbuilding - use one or more [DeckbuildingOption](../shared/instructions/Instructions.md#instruction---investigator-deckbuilding-option) instructions and one [DeckbuildingRequirements](../shared/instructions/Instructions.md#instruction---investigator-deckbuilding-requirement) instruction on each investigator card
-- Which cards are signatures and to which investigator a signature belongs - use [InvestigatorSignatureFor](../shared/instructions/Instructions.md#instruction--link-signatures-to-investigator) instruction on each signature card
+- Investigator deckbuilding - to provide this use one or more [DeckbuildingOption](../shared/instructions/Instructions.md#instruction---investigator-deckbuilding-option) instructions and one [DeckbuildingRequirements](../shared/instructions/Instructions.md#instruction---investigator-deckbuilding-requirement) instruction on each investigator card
+- Which cards are signatures and to which investigator a signature belongs - to provide this use [InvestigatorSignatureFor](../shared/instructions/Instructions.md#instruction--link-signatures-to-investigator) instruction on each signature card
 
 If you have investigators and signatures in your project **you may see errors** if the above are not added.
 
