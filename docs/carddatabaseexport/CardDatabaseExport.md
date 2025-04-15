@@ -16,7 +16,7 @@ Zoop can automatically extract most card content from Strange Eons files to buil
 
 - Overall type of the card (e.g. investigator, asset, event, skill, treachery, location, act, agenda)
 - Basic fields such as titles, subtitles, traits, flavour and illustrator
-- Most player card attributes, including slot(s), cost, level, class(es), type, icons, keywords (e.g. myriad, permanent, exceptional, bonded) and game text
+- Player card attributes including slot(s), cost, level, class(es), type, icons, keywords (e.g. myriad, permanent, exceptional, bonded) and game text
 - Location shroud and clues
 - Rendered card images, front and back faces
 - Collection numbers
