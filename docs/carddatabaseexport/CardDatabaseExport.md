@@ -79,7 +79,7 @@ To create a new project, enter a file path that you want to use for your project
 | Project content types | One or more of the avaiable options. Select all that apply (Scenario is for stand-alone) |
 | Project status | Describes what state the project is in |
 
-The arkham.build mode is **incremental**. This allows you to insert cards into one project file from one or more Strange Eons projects. For example if you have a campaign with one Strange Eons project per scenario you can use Zoop to create the project file and settings once, then run the export multiple times, once for each Strange Eons project. Zoop will keep adding cards to the target file.
+The arkham.build mode is **incremental**. This allows you to insert cards into one project file from one or more Strange Eons projects. For example if you have a campaign with one Strange Eons project per scenario you can use Zoop to create the project file and settings once, then run the export multiple times, once for each Strange Eons project. Zoop will keep adding cards to the project file. Zoop will also incorporate any changes made to cards previously exported in the project file.
 
 **However** the above incremental nature means Zoop will never delete cards from the project file. If you need to remove cards from the project file the safest way is to delete it, use Zoop to re-create it, and run all the exports again. Alternatively you can manually edit the resulting project file but that is not recommended.
 
