@@ -35,6 +35,8 @@ The following are needed by card databases however cannot be extracted automatic
 - Investigator deckbuilding - use one or more [DeckbuildingOption](../shared/instructions/Instructions.md#instruction---investigator-deckbuilding-option) instructions and one [DeckbuildingRequirements](../shared/instructions/Instructions.md#instruction---investigator-deckbuilding-requirement) instruction on each investigator card
 - Which cards are signatures and to which investigator a signature belongs - use [InvestigatorSignatureFor](../shared/instructions/Instructions.md#instruction--link-signatures-to-investigator) instruction on each signature card
 
+If you have investigators and signatures in your project you may see errors if the above are not added.
+
 ## Usage
 
 Select one folder containing your content. Typically this will be the root folder to include all of the project's content.
