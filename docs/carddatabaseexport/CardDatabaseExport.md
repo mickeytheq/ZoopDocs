@@ -12,7 +12,7 @@ This tool will obey [instructions](../shared/instructions/Instructions.md) defin
 
 ## Preparation
 
-Most card content Zoop can automatically extract from the Strange Eons files to build the card database. This includes
+Zoop can automatically extract most card content from Strange Eons files to build a card database. This includes
 
 - Overall type of the card (e.g. investigator, asset, event, skill, treachery, location, act, agenda)
 - Basic fields such as titles, subtitles, traits, flavour and illustrator
