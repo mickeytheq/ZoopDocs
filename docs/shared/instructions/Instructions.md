@@ -16,6 +16,7 @@ The following utilities use/obey these instructions
 
 - TTS export
 - Print and Play export
+- Card database export
 - Automatic numbering
 
 The following utilities ignore all instructions
