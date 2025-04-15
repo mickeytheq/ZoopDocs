@@ -20,7 +20,7 @@ Zoop can automatically extract most card content from Strange Eons files to buil
 - Location shroud and clues
 - Rendered card images, front and back faces
 - Collection numbers
-- Encounter sets and encounter set numbers - see [Encounter Sets](../../shared/encounterset/EncounterSet.md) for details
+- Encounter sets and encounter set numbers - see [Encounter Sets](../shared/encounterset/EncounterSet.md) for details
 - Enemy statistics, keywords and game text
 - Victory
 - Act and agenda numbering
