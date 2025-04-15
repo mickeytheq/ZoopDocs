@@ -65,6 +65,8 @@ After you have set the options, you will see the image options.
 | Project file | A local project file to save the card information to. You will need to specify a location for this first (it doesn't need to exist, Zoop will create it). The extention should be `json` |
 | Settings | Click the Edit button to enter or update the project settings |
 
+To create a new project enter a path to a project file that does not exist. Then click **Settings** to configure the settings for that project. You only need to do this once per project file.
+
 ### arkam.build project settings
 
 | Option | Details |
