@@ -19,7 +19,7 @@ For 1 above identification is straightforward as all cards in the set are linked
 
 For 2 the only available data is a custom image path. Zoop takes the filename of this image (with the extension removed) and uses this to both assign a name to the encounter set and use it as the unique key for grouping.
 
-## When is the encounter set relevant
+## When is the encounter set relevant?
 
 The encounter set is relevant when
 
