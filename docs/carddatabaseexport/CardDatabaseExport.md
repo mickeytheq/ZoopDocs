@@ -39,7 +39,7 @@ If you have investigators and signatures in your project **you may see errors** 
 
 ## Usage
 
-Select one folder containing your content. Typically this will be the root folder to include all of the project's content.
+In Strange Eons right click on one folder containing your content and select the **Zoop -> Export to card database** option. Typically you will do this in the root folder to include all of the project's content.
 
 You will first see the option dialog
 
