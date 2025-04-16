@@ -241,11 +241,11 @@ Weird level zero options
 `#TTSZ#DeckbuildingOption(Classes="Rogue",MinimumLevel=1,MaximumLevel=5)`
 `#TTSZ#DeckbuildingOption(Classes="Rogue",MinimumLevel=0,MaximumLevel=0,CardCountLimit=5)`
 
-## Instruction - DeckbuildingRestrictions
+## Instruction - DeckbuildingRequirements
 
-This allows you to specify the deckbuilding restrictions for an investigator. This instruction is only valid on investigator cards.
+This allows you to specify the deckbuilding requirements for an investigator. This instruction is only valid on investigator cards.
 
-Instruction key: DeckbuildingRestrictions
+Instruction key: DeckbuildingRequirements
 
 Parameters:
 
@@ -255,7 +255,7 @@ Parameters:
 
 ### Example
 
-`#TTSZ#DeckbuildingRestrictions(DeckSize=30)`
+`#TTSZ#DeckbuildingRequirements(DeckSize=30)`
 
 ## Instruction - Override encounter set details
 
