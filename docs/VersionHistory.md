@@ -1,5 +1,29 @@
 # Version History
 
+## 3.0 - TBD
+
+- New feature - export to card database - this exports Strange Eons content to formats accepted by online card databases to allow homebrew content to be used for player deck-building and visibility of campaign/encounter cards - [doco](https://mickeytheq.github.io/ZoopDocs/carddatabaseexport/CardDatabaseExport.html)
+- New feature - export to card database - support for arkham.build format
+- New feature - populate investigator card - Converts deckbuilding free-text from an investigator card to Zoop instructions - [doco](https://github.com/mickeytheq/ZoopDocs/blob/main/docs/utility/PopulateInvestigator.md)
+- Improvement - Added EncounterSet instruction to override default EncounterSet naming - [doco](https://mickeytheq.github.io/ZoopDocs/shared/encounterset/EncounterSet.html)
+- Improvement - Added DeckbuildingOption and DeckbuildingRequirement instructions
+- New feature - inspect card - a quick view of a card's internals - [doco](https://github.com/mickeytheq/ZoopDocs/blob/main/docs/utility/InspectCard.md)
+- New feature - image upload support for AWS S3
+- New feature - image upload support for Cloudflare R2
+- Improvement - Added progress bar to the progress dialog - useful when running large exports
+- Improvement - Zoop process can now be cancelled via the Cancel button on the progress dialog
+- Improvement - Encounter set identity for cards using custom image path is now just the filename rather than the full path
+- Bugfix - Investigators with non-numeric stats failed to parse
+- Improvement - Added support for the slot field to SCED metadata generation
+- Improvement - Added support for the signatures to SCED metadata generation
+- Improvement - Made the Dropbox OAuth authorisation dialog more user-friendly
+- Improvement - Print and play output now overwrites existing files rather than failing
+- Bugfix - Investigator backs were sometimes output with the wrong orientation
+- Improvement - Added OverrideCardFaceImage instruction to allow overriding a card faces output image with a custom one
+- Improvement - Add a cachebust URL parameter to FTP uploads so downstream caches refresh when a card is changed
+- Improvement - Tweak the ImageExporter to improve compatibility with Strange Eons 3.4 (I make no promises this will continue to work, you may need to downgrade)
+- Improvement - Optimise FTP upload by only creating needed directories once, rather than for each uploaded file
+
 ## 2.7 - 10th March 2025
 
 - FTP image upload support has been added. Supports plain FTP and FTPS (FTP with SSL/TLS)
