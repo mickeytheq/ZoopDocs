@@ -60,6 +60,25 @@ The following example will swap the faces
 
 `#TTSZ#SwapCardFaces
  
+## Instruction - Override a card's image
+
+This allows you to have Zoop completely replace a card faces output image with a custom one from your computer. The normal Strange Eons image is completely replaced.
+
+Instruction key: OverrideCardFaceImage
+Parameters:
+
+| Parameter key | Details |
+| --- | --- |
+| ReplaceFace | The card face you want to replace. Must be either “Front” or “Back” |
+| OverrideImagePath | Relative path from this card to the image file you want to use instead |
+
+### Example
+
+The following example will replace the output image of the front face of the current card with the specified file.
+
+`#TTSZ#OverrideCardFaceImage(ReplaceFace="Front",OverrideImagePath="UseThisInstead.jpg")`
+
+
 ## Instruction - Exclude
 
 This allows you to have Zoop exclude the card from the export process. This can be useful if the card is a work in progress or is used as part of a card such as the source of the ReplaceCardFace instruction.
