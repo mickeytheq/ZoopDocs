@@ -54,7 +54,7 @@ The options are
 | Image storage to | Selects the cloud host to upload card images.<br>See the [FAQ](../FAQ.md) for how to configure various cloud image accounts.<br>The Always fail option is primarily for testing and should not be used for normal usage.<br>Some cloud hosts implement rate limiting. Therefore, when uploading a lot of new files you may run into an error that mentions a non-200 status was returned and a message mentioning rate limiting. If this happens, either wait a period of time (minutes/hours) and try again or switch to the other cloud host |
 | Export images folder | The folder on your local computer where you want Zoop to export all the card images. A temporary area such as C:\Temp is appropriate for this. |
 
-### arkam.build options
+### arkham.build options
 
 If the target is arkham.build then you will see the following options
 
