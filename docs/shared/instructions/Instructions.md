@@ -1,5 +1,8 @@
 # Instructions
 
+* TOC
+{:toc}
+
 Zoop supports embedding instructions on cards. These instructions will drive behaviour during Zoop processes.
 
 Each instruction is a single line in the comments field of the card. An instruction always starts with #TTSZ# to identify it to Zoop as a specific instruction. Immediately after the second # you specify the name of the instruction and any parameters for that instruction. Each instruction and its parameters are documented below.
