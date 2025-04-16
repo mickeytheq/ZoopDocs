@@ -189,7 +189,7 @@ Parameters:
 | MaximumLevel | The maximum inclusive level permitted |
 | CardCountLimit | Tha maximum number of cards of this condition permitted |
 | Traits | A comma delimited list of traits. All traits begin with a capital letter |
-| PlayerCardTypes | A comma delimited list of card types. Valid options are Asset, Event and Skill |
+| CardTypes | A comma delimited list of card types. Valid options are Asset, Event and Skill |
 | Exclude | Must be "true" or "false". If true then the rules defined by this option are an exclusion |
 
 Some example of official investigators below
@@ -221,7 +221,7 @@ Exclusion example
 Trait + card type example
 
 `#TTSZ#DeckbuildingOption(Classes="Seeker,Neutral",MinimumLevel=0,MaximumLevel=5)`
-`#TTSZ#DeckbuildingOption(Traits="Practiced",PlayerCardTypes="Skill",MinimumLevel=0,MaximumLevel=3)`
+`#TTSZ#DeckbuildingOption(Traits="Practiced",CardTypes="Skill",MinimumLevel=0,MaximumLevel=3)`
 
 **Finn Edwards**
 
