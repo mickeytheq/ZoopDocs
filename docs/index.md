@@ -15,6 +15,11 @@ The primary features of Zoop are
 - [Bulk update](bulkupdate/BulkUpdate.md) - Bulk update a selection of cards on multiple cards. For example updating the Collection or Encounter Set information across a set of cards or an entire project.
 - [Export and import](exportimport/ExportImport.md) - Export and import of card details to/from Excel for external editing. Useful for translating to a different language in a more convenient format than within Strange Eons.
 
+Utilities
+
+- [Inspect card](utility/InspectCard.md) - Provides a quick view of a Strange Eons card internals. A more useful version of the settings explorer
+- [Populate investigator card](utility/PopulateInvestigator.md) - Converts deckbuilding free-text from an investigator card to Zoop [instructions](shared/instructions/Instructions.md)
+
 Other features include
 
 - [Card quantity](shared/cardquantity/CardQuantity.html) and [Encounter card unrolling](shared/encountersetunrolling/EncounterSetUnrolling.md) - create multiple copies of a card from a single source card
