@@ -7,7 +7,7 @@ This utility attempts to populate an investigator card and related cards with [i
 Specifically this will
 
 - Create one or more [DeckbuildingOption](../shared/instructions/Instructions.md#instruction---investigator-deckbuilding-option) instructions from the **Deckbuilding Options** section
-- Create a [DeckbuildingRequirements](../shared/instructions/Instructions.md##instruction---deckbuildingrestrictions) instruction from the **Deck Size** section
+- Create a [DeckbuildingRequirements](../shared/instructions/Instructions.md#instruction---deckbuildingrequirements) instruction from the **Deck Size** section
 - Add the [InvestigatorSignatureFor](../shared/instructions/Instructions.md#instruction--link-signatures-to-investigator) instruction to each signature card specified in the **Deckbuilding Requirements** section
 - Create a [DeckbuildingOption](../shared/instructions/Instructions.md#instruction---investigator-deckbuilding-option) instruction from the **Deckbuilding Restrictions** section
 
