@@ -2,12 +2,12 @@
 
 ## 3.0 - TBD
 
-- New feature - export to card database - this exports Strange Eons content to formats accepted by online card databases to allow homebrew content to be used for player deck-building and visibility of campaign/encounter cards - [doco](https://mickeytheq.github.io/ZoopDocs/carddatabaseexport/CardDatabaseExport.html)
+- New feature - export to card database - this exports Strange Eons content to formats accepted by online card databases to allow homebrew content to be used for player deck-building and visibility of campaign/encounter cards - [doco](carddatabaseexport/CardDatabaseExport.md)
 - New feature - export to card database - support for arkham.build format
-- New feature - populate investigator card - Converts deckbuilding free-text from an investigator card to Zoop instructions - [doco](https://github.com/mickeytheq/ZoopDocs/blob/main/docs/utility/PopulateInvestigator.md)
-- Improvement - Added EncounterSet instruction to override default EncounterSet naming - [doco](https://mickeytheq.github.io/ZoopDocs/shared/encounterset/EncounterSet.html)
+- New feature - populate investigator card - Converts deckbuilding free-text from an investigator card to Zoop instructions - [doco](utility/PopulateInvestigator.md)
+- Improvement - Added EncounterSet instruction to override default EncounterSet naming - [doco](shared/encounterset/EncounterSet.md)
 - Improvement - Added DeckbuildingOption and DeckbuildingRequirement instructions
-- New feature - inspect card - a quick view of a card's internals - [doco](https://github.com/mickeytheq/ZoopDocs/blob/main/docs/utility/InspectCard.md)
+- New feature - inspect card - a quick view of a card's internals - [doco](utility/InspectCard.md)
 - New feature - image upload support for AWS S3
 - New feature - image upload support for Cloudflare R2
 - Improvement - Added progress bar to the progress dialog - useful when running large exports
