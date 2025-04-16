@@ -6,12 +6,12 @@ This utility attempts to populate an investigator card and related cards with [i
 
 Specifically this will
 
-- Create one or more [DeckbuildingOption](../shared/instructions/Instructions.md) instructions from the **Deckbuilding Options** section
-- Create a [DeckbuildingRequirements](../shared/instructions/Instructions.md) instruction from the **Deck Size** section
-- Add the [InvestigatorSignatureFor](../shared/instructions/Instructions.md) instruction to each signature card specified in the **Deckbuilding Requirements** section
-- Create a [DeckbuildingOption](../shared/instructions/Instructions.md) instruction from the **Deckbuilding Restrictions** section
+- Create one or more [DeckbuildingOption](../shared/instructions/Instructions.md#instruction---investigator-deckbuilding-option) instructions from the **Deckbuilding Options** section
+- Create a [DeckbuildingRequirements](../shared/instructions/Instructions.md#instruction---investigator-deckbuilding-requirement) instruction from the **Deck Size** section
+- Add the [InvestigatorSignatureFor](../shared/instructions/Instructions.md#instruction--link-signatures-to-investigator) instruction to each signature card specified in the **Deckbuilding Requirements** section
+- Create a [DeckbuildingOption](../shared/instructions/Instructions.md#instruction---investigator-deckbuilding-option) instruction from the **Deckbuilding Restrictions** section
 
-This function uses free-text parsing which is very fragile and prone to not work at all/correctly when there are minor changes in the structure of the source text. Therefore to use this authors are encouraged to format their investigator cards as close to official cards as possible. Of particular importance is
+This function uses free-text parsing which is very fragile and prone to not work at all/correctly when there are minor changes or errors in the structure or content of the source text. Therefore to use this authors are encouraged to format their investigator cards as close to official cards as possible. Of particular importance is
 
 - Using the same header names as official cards, e.g. **Deckbuilding Restrictions** not **Additional Restrictions**
 - Following the same structure as official cards for deckbuilding options, e.g. **Guardian cards (icon) level 0-3** not **Level 0-3 Guardian cards**
