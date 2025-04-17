@@ -4,6 +4,8 @@
 
 This utility attempts to populate an investigator card and related cards with [instructions](../shared/instructions/Instructions.md) derived from the free-text on the back of the investigator card.
 
+This utility is a convenience not a necessity. If this utility does not produce the desired output users can manually create the instructions described below to define the deckbuilding.
+
 Specifically this will
 
 - Create one or more [DeckbuildingOption](../shared/instructions/Instructions.md#instruction---investigator-deckbuilding-option) instructions from the **Deckbuilding Options** section
