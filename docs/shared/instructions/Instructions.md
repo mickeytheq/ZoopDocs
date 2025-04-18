@@ -39,8 +39,8 @@ Parameters:
 | Parameter key | Details |
 | --- | --- |
 | ReplaceFace | The card face you want to replace. Must be either “Front” or “Back” |
-| CopyCardTitle | The title of the front face of the card you want to copy from. Must match a single card in the scope of that run of Zoop |
-| CopyCardFilename | The filename of the card you want to copy from (without the .eon extension). Must match a single card in the scope of that run of Zoop |
+| CopyCardTitle | The title of the front face of the card you want to copy from. Must match a single card in the scope of that run of Zoop. Specify exactly one of this or CopyCardFilename, not both |
+| CopyCardFilename | The filename of the card you want to copy from (without the .eon extension). Must match a single card in the scope of that run of Zoop. Specify exactly one of this or CopyCardTitle, not both |
 | CopyCardFace | The face of the card you want to copy. Must be either “Front” or “Back” |
 
 ### Example
@@ -61,7 +61,7 @@ Parameters: None
 
 The following example will swap the faces
 
-`#TTSZ#SwapCardFaces
+`#TTSZ#SwapCardFaces`
  
 ## Instruction - Override a card's image
 
