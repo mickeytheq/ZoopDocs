@@ -199,7 +199,7 @@ Parameters:
 | TextRegex | A regular expression that if it matches on a card, that card will be available for deckbuilding. Multiple instances of this parameter can be specified and will be treat as an 'or' list |
 | Exclude | Must be "true" or "false". If true then the rules defined by this option are an exclusion |
 
-Some example of official investigators below
+Some example of official investigators/cards below
 
 **Roland Banks**
 
@@ -264,6 +264,12 @@ Exact text matching
 `#TTSZ#DeckbuildingOption(Classes="Neutral",MinimumLevel=0,MaximumLevel=5)`
 `#TTSZ#DeckbuildingOption(Traits="Firearm",MinimumLevel=0,MaximumLevel=5)`
 `#TTSZ#DeckbuildingOption(TextExact="Firearm",MinimumLevel=0,MaximumLevel=5)`
+
+**Versatile**
+
+A card altering deck-building
+
+`#TTSZ#DeckbuildingOption(MinimumLevel=0,MaximumLevel=0,CardCountLimit=1)`
 
 ## Instruction - DeckbuildingRequirements
 
