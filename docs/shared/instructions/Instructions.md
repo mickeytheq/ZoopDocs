@@ -261,7 +261,7 @@ Exact text matching
 `#TTSZ#DeckbuildingOption(Classes="Rogue",MinimumLevel=0,MaximumLevel=3)`
 `#TTSZ#DeckbuildingOption(Classes="Neutral",MinimumLevel=0,MaximumLevel=5)`
 `#TTSZ#DeckbuildingOption(Traits="Firearm",MinimumLevel=0,MaximumLevel=5)`
-`#TTSZ#DeckbuildingOption(Text="Firearm",MinimumLevel=0,MaximumLevel=5)`
+`#TTSZ#DeckbuildingOption(TextExact="Firearm",MinimumLevel=0,MaximumLevel=5)`
 
 ## Instruction - DeckbuildingRequirements
 
