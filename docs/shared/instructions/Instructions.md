@@ -193,6 +193,8 @@ Parameters:
 | CardCountLimit | Tha maximum number of cards of this condition permitted |
 | Traits | A comma delimited list of traits. All traits begin with a capital letter |
 | CardTypes | A comma delimited list of card types. Valid options are Asset, Event and Skill |
+| TextExact | A string that if it appears on a card (case-insensitive), that card will be available for deckbuilding. Multiple instances of this parameter can be specified and will be treat as an 'or' list |
+| TextRegex | A regular expression that if it matches on a card, that card will be available for deckbuilding. Multiple instances of this parameter can be specified and will be treat as an 'or' list |
 | Exclude | Must be "true" or "false". If true then the rules defined by this option are an exclusion |
 
 Some example of official investigators below
@@ -243,6 +245,14 @@ Weird level zero options
 `#TTSZ#DeckbuildingOption(Classes="Survivor",MinimumLevel=0,MaximumLevel=0)`
 `#TTSZ#DeckbuildingOption(Classes="Rogue",MinimumLevel=1,MaximumLevel=5)`
 `#TTSZ#DeckbuildingOption(Classes="Rogue",MinimumLevel=0,MaximumLevel=0,CardCountLimit=5)`
+
+**Akachi Onyele**
+
+Regular expression matching
+
+`#TTSZ#DeckbuildingOption(Classes="Mystic,Neutral",MinimumLevel=0,MaximumLevel=5)`
+`#TTSZ#DeckbuildingOption(TextRegex="Uses (\d+ charges)",MinimumLevel=0,MaximumLevel=4)`
+`#TTSZ#DeckbuildingOption(Traits="Occult",MinimumLevel=0,MaximumLevel=0)`
 
 ## Instruction - DeckbuildingRequirements
 
