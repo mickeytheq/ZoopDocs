@@ -254,6 +254,15 @@ Regular expression matching
 `#TTSZ#DeckbuildingOption(TextRegex="Uses (\d+ charges)",MinimumLevel=0,MaximumLevel=4)`
 `#TTSZ#DeckbuildingOption(Traits="Occult",MinimumLevel=0,MaximumLevel=0)`
 
+**Michael McGlen**
+
+Exact text matching
+
+`#TTSZ#DeckbuildingOption(Classes="Rogue",MinimumLevel=0,MaximumLevel=3)`
+`#TTSZ#DeckbuildingOption(Classes="Neutral",MinimumLevel=0,MaximumLevel=5)`
+`#TTSZ#DeckbuildingOption(Traits="Firearm",MinimumLevel=0,MaximumLevel=5)`
+`#TTSZ#DeckbuildingOption(Text="Firearm",MinimumLevel=0,MaximumLevel=5)`
+
 ## Instruction - DeckbuildingRequirements
 
 This allows you to specify the deckbuilding requirements for an investigator. This instruction is only valid on investigator cards.
