@@ -59,17 +59,18 @@ You’ll need a dropbox account first, then follow these steps
 9.	Under Collaboration tick the following options – this permission allows Zoop to create shared links to uploaded files in your dropbox, allowing TTS to download them
     1.	**sharing.write**
     1.	**sharing.read**
-10.	Click the Settings tab
-11. Open Strange Eons and run Zoop
-12. Select the **Dropbox (OAuth2)** option for image storage
-13. Copy the App key and App secret from the Dropbox settings screen into the Zoop options dialog
+10. Click Save
+11.	Click the Settings tab
+12. Open Strange Eons and run Zoop
+13. Select the **Dropbox (OAuth2)** option for image storage
+14. Copy the App key and App secret from the Dropbox settings screen into the Zoop options dialog
     1. In Zoop, you will see a message in a greyed out **Access token** editor stating **Authorisation required**
-14. Click the **Authorise** button
+15. Click the **Authorise** button
     1. Your web browser should open. Dropbox will ask you to confirm the access being requested
-15. In the browser you will see an authorisation token. Copy this from the browser and paste it into the Zoop dialog asking for it
-16. Click OK on the dialog
+16. In the browser you will see an authorisation token. Copy this from the browser and paste it into the Zoop dialog asking for it
+17. Click OK on the dialog
     1. Returning to the options dialog the **Access token** editor should now show **Access token created**
-17. You should **not** need to perform steps 14-16 again. The access token should automatically refresh on future uses of Zoop
+18. You should **not** need to perform steps 14-16 again. The access token should automatically refresh on future uses of Zoop
 
 ## How do I use my dropbox account with Zoop (Short lived token - deprecated)?
 
