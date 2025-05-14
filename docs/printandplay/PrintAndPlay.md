@@ -23,7 +23,7 @@ The options are
 
 | Option | Details |
 | ---- | ---- |
-| Mode | The options are - MPC – creates files compatible with the chrome browser plugin for creating MPC projects
+| Mode | The options are - MPC – creates files compatible with the chrome browser plugin for creating MPC projects. - Print Ready - creates individual files
 | Logging Level | Generally, you can leave this on Normal. If you want more details or feedback on the process set it to the other options for more logging. This does not impact the behaviour or output in any way |
 | Player card back | Specify a local file to use as the player card back in the output. Zoop includes a default image but you may wish to use a different one. |
 | Encounter card back	| Specify a local file to use as the encounter card back in the output. Zoop includes a default image but you may wish to use a different one. |
