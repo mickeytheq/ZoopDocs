@@ -13,6 +13,8 @@ Parameter values are enclosed in double quotes. If you need a genuine double quo
 
 Instructions and their parameters are case sensitive.
 
+Each instruction can only appear once on each card, unless specifically mentioned against the instruction documentation below.
+
 ## Which Zoop utilities use instructions?
 
 The following utilities use/obey these instructions
@@ -160,6 +162,8 @@ Parameters:
 
 This allows you to link signatures (including weaknesses) to their corresponding investigator card. Zoop uses this in the automated collection numbering to group signatures with the investigator.
 
+Multiple instances of this instruction are supported to link the same signature card to multiple investigators.
+
 Instruction key: InvestigatorSignatureFor
 
 Parameters:
@@ -176,6 +180,8 @@ Parameters:
 ## Instruction - Investigator deckbuilding option
 
 This allows you to specify the deckbuilding options on a card.
+
+Multiple instances of this instruction are supported to create combined deckbuilding options.
 
 Its typical usage is on an investigator card to specify the deckbuilding. You can, and generally will need to, specify multiple instances of this instruction on a each investigator.
 
