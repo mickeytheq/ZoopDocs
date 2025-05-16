@@ -1,6 +1,6 @@
 # Version History
 
-## 3.0 - TBD
+## 3.0 - 16th May 2025
 
 - New feature - export to card database - this exports Strange Eons content to formats accepted by online card databases to allow homebrew content to be used for player deck-building and visibility of campaign/encounter cards - [doco](carddatabaseexport/CardDatabaseExport.md)
 - New feature - export to card database - support for arkham.build format
@@ -23,6 +23,8 @@
 - Improvement - Add a cachebust URL parameter to FTP uploads so downstream caches refresh when a card is changed
 - Improvement - Tweak the ImageExporter to improve compatibility with Strange Eons 3.4 (I make no promises this will continue to work, you may need to downgrade)
 - Improvement - Optimise FTP upload by only creating needed directories once, rather than for each uploaded file
+- Improvement - InvestigatorSignatureFor instruction can now be specified multiple times on the same signature to link signatures to multiple investigators
+- Improvmeent - Zoop will fail if an instruction is used multiple times on a card but the instruction does not support multiple usages (currently only DeckbuildingOption and InvestigatorSignatureFor support this)
 
 ## 2.7 - 10th March 2025
 
