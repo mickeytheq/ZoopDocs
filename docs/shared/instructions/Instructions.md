@@ -35,6 +35,8 @@ The latter group ignore instructions as these utilities are designed to operate 
 
 This allows you to have Zoop replace a card face on a card with a face from a different card. This can be useful for locations that have a common card back or when SEs available options for double sided cards don’t meet your needs.
 
+Multiple instances of this instruction per card are supported.
+
 Instruction key: ReplaceCardFace
 Parameters:
 
@@ -69,7 +71,10 @@ The following example will swap the faces
 
 This allows you to have Zoop completely replace a card faces output image with a custom one from your computer. The normal Strange Eons image is completely replaced.
 
+Multiple instances of this instruction per card are supported.
+
 Instruction key: OverrideCardFaceImage
+
 Parameters:
 
 | Parameter key | Details |
@@ -313,6 +318,8 @@ Parameters:
 
 This instruction allows overriding some of the default SCED metadata that determines how locations functions. The SCED mod automatically draws lines between connecting locations. You can use this instruction to add/replace a location’s icons and connections and/or force a non-location card to act like a location for connection purposes. See [SCED metadata](../../tts/ScedMetadata.md) for further details on metadata.
 
+Multiple instances of this instruction per card are supported.
+
 **Applies to TTS exports only**
 
 Instruction key: ScedMetadataLocation
@@ -340,6 +347,8 @@ This example adds a connection to the location with the “MadeUp” icon, for b
 ## Instruction – SCED metadata - extra token
 
 This instruction allows specifying the extraToken metadata used by the SCED mod to spawn additional action tokens for investigators. This instruction is only valid on investigator cards. See [SCED metadata](../../tts/ScedMetadata.md) for further details on metadata.
+
+Multiple instances of this instruction per card are supported.
 
 **Applies to TTS exports only**
 
