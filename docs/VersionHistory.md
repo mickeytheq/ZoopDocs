@@ -1,5 +1,9 @@
 # Version History
 
+## 3.1 - 18th May 2025
+
+- Bugfix - Some instructions fail when there are multiple instances on a single card
+
 ## 3.0 - 16th May 2025
 
 - New feature - export to card database - this exports Strange Eons content to formats accepted by online card databases to allow homebrew content to be used for player deck-building and visibility of campaign/encounter cards - [doco](carddatabaseexport/CardDatabaseExport.md)
