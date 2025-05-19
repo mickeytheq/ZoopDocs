@@ -226,13 +226,30 @@ Example of a limited number of cards from level 0
 `#TTSZ#DeckbuildingOption(Classes="Guardian,Neutral",MinimumLevel=0,MaximumLevel=5)`
 `#TTSZ#DeckbuildingOption(MinimumLevel=0,MaximumLevel=0,CardCountLimit=5)`
 
-**Preson Fairmont**
+**Preston Fairmont**
 
 Exclusion example
 
+Note that exclusions MUST come first in the list. Anything before an Exclude=True instruction will be treated as an 'unless'.
+
+`#TTSZ#DeckbuildingOption(Exclude="true",Traits="Illicit")`
 `#TTSZ#DeckbuildingOption(Classes="Rogue,Neutral",MinimumLevel=0,MaximumLevel=5)`
 `#TTSZ#DeckbuildingOption(Classes="Survivor",MinimumLevel=0,MaximumLevel=2)`
-`#TTSZ#DeckbuildingOption(Exclude="true",Traits="Illicit")`
+
+**Rex Murphy (parallel)**
+
+Example of excluding cards with exceptions.
+
+Note the order is important. Everything after the Exclude option is the base deckbuilding. Then the Exclude is layered on top to remove certain cards from the pool. Then any options above the Exclude are applied to re-add certain cards to the pool.
+
+`#TTSZ#DeckbuildingOption(Classes="Neutral",Traits="Cursed",MinimumLevel=0,MaximumLevel=5)`
+`#TTSZ#DeckbuildingOption(Traits="Cursed",MinimumLevel=0,MaximumLevel=4)`
+`#TTSZ#DeckbuildingOption(Exclude="true",Traits="Fortune,Blessed")`
+`#TTSZ#DeckbuildingOption(Classes="Seeker",MinimumLevel=0,MaximumLevel=3)`
+`#TTSZ#DeckbuildingOption(Classes="Neutral",MinimumLevel=0,MaximumLevel=5)`
+`#TTSZ#DeckbuildingOption(Traits="Gambit",MinimumLevel=0,MaximumLevel=4)`
+`#TTSZ#DeckbuildingOption(Traits="Rogue",MinimumLevel=0,MaximumLevel=0,CardCountLimit=5)`
+
 
 **Amanda Sharpe**
 
