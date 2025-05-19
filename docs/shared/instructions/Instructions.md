@@ -194,6 +194,8 @@ Its typical usage is on an investigator card to specify the deckbuilding. You ca
 
 It is also supported on player cards for the rare cases that a player card alters the deckbuilding of the owning deck when added.
 
+Deckbuilding options are evaluated by card databases such as ArkhamDB and arkham.build in **top to bottom order** for each card. This is typically relevant for options that exclude cards, such as Preston. In Preston's case the 'no firearms' option must be first so that all firearms match it and are excluded, instead of matching the rogue 0-5 option which is further down the list.
+
 Instruction key: DeckbuildingOption
 
 Parameters:
