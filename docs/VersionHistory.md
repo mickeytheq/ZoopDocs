@@ -12,7 +12,7 @@
 - arkham.build - Rules cards now populate correctly
 - arkham.build - Chaos/scenario cards now populate correctly
 - arkham.build - Project files are now sorted by card position followed by code to ensure stable sort order for diffing (no other system impact)
-- arkham.build - <pre> and <spa> Strange Eons tags now translated correctly
+- arkham.build - `<pre>` and `<spa>` Strange Eons tags now translated correctly
 - arkham.build - Mixed case Strange Eons tags are treated the same as lower case when translating
 - arkham.build - Ensure there is always a trailing space after translation of keywords with a subsequent hyphen such as "<for>ABC" -> "<b>Forced</b> - ABC"
 - arkham.build - Multiple trait tags in a single text block are now handled correctly
