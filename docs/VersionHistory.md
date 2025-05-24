@@ -2,7 +2,32 @@
 
 ## 3.1 - 18th May 2025
 
-- Bugfix - Some instructions fail when there are multiple instances on a single card
+- Instructions - Bugfix - Some instructions fail when there are multiple instances on a single card
+- arkham.build - No longer fail when the existing JSON has properties Zoop does not recognise
+- arkham.build - Add option to specify the Banner URL when configuring the project settings
+- arkham.build - Fixed issue with Agenda Portraits failing to import
+- arkham.build - Correctly translate the <fullname> Strange Eons tag to the card's title
+- arkham.build - Act and agenda backs now populate correctly
+- arkham.build - Player cards/weaknesses that have an encounter card back can no longer be included in a deck
+- arkham.build - Map 'X' statistic values to the correct value so they render correctly
+- arkham.build - Rules cards now populate correctly
+- arkham.build - Chaos/scenario cards now populate correctly
+- arkham.build - Project files are now sorted by card position followed by code to ensure stable sort order for diffing (no other system impact)
+- arkham.build - <pre> and <spa> Strange Eons tags now translated correctly
+- arkham.build - Mixed case Strange Eons tags are treated the same as lower case when translating
+- arkham.build - Ensure there is always a trailing space after translation of keywords with a subsequent hyphen such as "<for>ABC" -> "<b>Forced</b> - ABC"
+- arkham.build - Multiple trait tags in a single text block are now handled correctly
+- arkham.build - <endash> tag is now translated to a hyphen
+- arkham.build - <bul>, <bultab>, <hs> are now translated correctly
+- Investigator populate - <endash> and en/em-dash literals are translated to hyphens prior to parsing the deckbuilding text
+- Investigator populate - Updated to handle 'or' as a delimiter when listing multiple card types/traits
+- arkham.build - Text conversion now correctly performed on flavor text
+- Investigator populate - Failing to parse the signature count no longer errors
+- Investigator populate - Attempted to make the confirmation dialog narrower
+- Strange Eons - Asset cards with non-numeric health/sanity are now supported
+- TTS export - Updating an existing saved object now correctly writes the file back using UTF-8
+- Instruction - Adding 'Permanent' support to DeckbuildingOption
+- Image upload - AWS S3 and Cloudflare R2 uploaders now product correctly encoded URLs
 
 ## 3.0 - 16th May 2025
 
