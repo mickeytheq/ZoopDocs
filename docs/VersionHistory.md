@@ -1,8 +1,7 @@
 # Version History
 
-## 3.1 - 18th May 2025
+## 3.2 - 24th May 2025
 
-- Instructions - Bugfix - Some instructions fail when there are multiple instances on a single card
 - arkham.build - No longer fail when the existing JSON has properties Zoop does not recognise
 - arkham.build - Add option to specify the Banner URL when configuring the project settings
 - arkham.build - Fixed issue with Agenda Portraits failing to import
@@ -28,6 +27,10 @@
 - TTS export - Updating an existing saved object now correctly writes the file back using UTF-8
 - Instruction - Adding 'Permanent' support to DeckbuildingOption
 - Image upload - AWS S3 and Cloudflare R2 uploaders now product correctly encoded URLs
+  
+## 3.1 - 18th May 2025
+
+- Instructions - Bugfix - Some instructions fail when there are multiple instances on a single card
 
 ## 3.0 - 16th May 2025
 
