@@ -210,6 +210,7 @@ Parameters:
 | CardTypes | A comma delimited list of card types. Valid options are Asset, Event and Skill |
 | TextExact | A string that if it appears on a card (case-insensitive), that card will be available for deckbuilding. Multiple instances of this parameter can be specified and will be treat as an 'or' list |
 | TextRegex | A regular expression that if it matches on a card, that card will be available for deckbuilding. Multiple instances of this parameter can be specified and will be treat as an 'or' list |
+| Permanent | Must be "true" or "false". Specifies whether cards with(out) the permanent keyword are permitted |
 | Exclude | Must be "true" or "false". If true then the rules defined by this option are an exclusion |
 
 Some example of official investigators/cards below
