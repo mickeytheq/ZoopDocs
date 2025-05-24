@@ -44,7 +44,9 @@ Please feedback with any issues or feature requests in the [Mythos Busters disco
 - TheBeard for testing and feedback
 - a_neo for the dropbox suggestion and contributing some code
 - coldtoes for print and play and automatic collection numbering testing and feedback
-- jaqenZann for assistance understanding the workings of the AHLCG plugin
+- jaqenZann and Tokeeto for assistance understanding the workings of the AHLCG plugin
 - Frying Tonight for testing and feedback
 - BranKaLeon for testing and feedback of the export/import capability
 - Whimsical for testing and feedback
+- AtomicZ for testing and feedback
+- felice for creating arkham.build and add custom card support
