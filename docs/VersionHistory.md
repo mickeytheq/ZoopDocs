@@ -5,7 +5,7 @@
 - arkham.build - No longer fail when the existing JSON has properties Zoop does not recognise
 - arkham.build - Add option to specify the Banner URL when configuring the project settings
 - arkham.build - Fixed issue with Agenda Portraits failing to import
-- arkham.build - Correctly translate the <fullname> Strange Eons tag to the card's title
+- arkham.build - Correctly translate the `<fullname>` Strange Eons tag to the card's title
 - arkham.build - Act and agenda backs now populate correctly
 - arkham.build - Player cards/weaknesses that have an encounter card back can no longer be included in a deck
 - arkham.build - Map 'X' statistic values to the correct value so they render correctly
@@ -16,9 +16,9 @@
 - arkham.build - Mixed case Strange Eons tags are treated the same as lower case when translating
 - arkham.build - Ensure there is always a trailing space after translation of keywords with a subsequent hyphen such as "<for>ABC" -> "<b>Forced</b> - ABC"
 - arkham.build - Multiple trait tags in a single text block are now handled correctly
-- arkham.build - <endash> tag is now translated to a hyphen
-- arkham.build - <bul>, <bultab>, <hs> are now translated correctly
-- Investigator populate - <endash> and en/em-dash literals are translated to hyphens prior to parsing the deckbuilding text
+- arkham.build - `<endash>` tag is now translated to a hyphen
+- arkham.build - `<bul>`, `<bultab>`, `<hs>` are now translated correctly
+- Investigator populate - `<endash>` and en/em-dash literals are translated to hyphens prior to parsing the deckbuilding text
 - Investigator populate - Updated to handle 'or' as a delimiter when listing multiple card types/traits
 - arkham.build - Text conversion now correctly performed on flavor text
 - Investigator populate - Failing to parse the signature count no longer errors
