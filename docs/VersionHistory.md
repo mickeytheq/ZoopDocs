@@ -26,7 +26,7 @@
 - Strange Eons - Asset cards with non-numeric health/sanity are now supported
 - TTS export - Updating an existing saved object now correctly writes the file back using UTF-8
 - Instruction - Adding 'Permanent' support to DeckbuildingOption
-- Image upload - AWS S3 and Cloudflare R2 uploaders now product correctly encoded URLs
+- Image upload - AWS S3 and Cloudflare R2 uploaders now produce correctly encoded URLs
   
 ## 3.1 - 18th May 2025
 
