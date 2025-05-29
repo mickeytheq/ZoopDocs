@@ -18,6 +18,7 @@ Zoop implementes the following logic to generate card quantity.
 
 - If the card is identified as an investigator signature, 1 copy is created
 - If the card has the exceptional keyword, 1 copy is created
+- If the card has Limit X per deck keyword, X copies are created
 - If the card has the myriad keyword, 3 copies are created
 - If the card has encounter set numbering then [Encounter set unrolling](../encountersetunrolling/EncounterSetUnrolling.md) is used
 - If the card is an Asset, Event or Skill, 2 copies are created
