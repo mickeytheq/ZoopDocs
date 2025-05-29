@@ -320,7 +320,7 @@ Parameters:
 
 ## Instruction - Override encounter set details
 
-This allows you to override Zoop defaults for an encounter set. See [Encounter Sets](../../encounterset/EncounterSet.md) for more information.
+This allows you to override Zoop defaults for an encounter set. See [Encounter Sets](../encounterset/EncounterSet.md) for more information.
 
 Instruction key: EncounterSet
 
