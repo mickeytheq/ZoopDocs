@@ -322,6 +322,8 @@ Parameters:
 
 This allows you to override Zoop defaults for an encounter set. See [Encounter Sets](../encounterset/EncounterSet.md) for more information.
 
+You only need to configure this on **one** card in **each** encounter set, not **every** card in each encounter set.
+
 Instruction key: EncounterSet
 
 Parameters:
