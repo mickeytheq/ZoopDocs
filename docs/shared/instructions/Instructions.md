@@ -190,7 +190,7 @@ Multiple instances of this instruction are supported to create combined deckbuil
 
 Its typical usage is on an investigator card to specify the deckbuilding. You can, and generally will need to, specify multiple instances of this instruction on a each investigator.
 
-**Secondary class selection and other more complicated deckbuilding is not currently supported**. If you have an deckbuilding that is not supported then the workaround is to specify a single DeckbuildingOption with all classes listed and levels 0 to 5. This will allow all cards to be available and the player will have to self-manage following the deck-building rules.
+If you have an deckbuilding that is not supported then the workaround is to specify a single DeckbuildingOption with all classes listed and levels 0 to 5. This will allow all cards to be available and the player will have to self-manage following the deck-building rules.
 
 It is also supported on player cards for the rare cases that a player card alters the deckbuilding of the owning deck when added.
 
@@ -233,7 +233,7 @@ Example of a limited number of cards from level 0
 
 Exclusion example
 
-Note that exclusions MUST come first in the list. Anything before an Exclude=True instruction will be treated as an 'unless'.
+Note that in this case the exclusions MUST come first in the list. Anything before an Exclude=True instruction will be treated as an 'unless'.
 
 `#TTSZ#DeckbuildingOption(Exclude="true",Traits="Illicit")`
 `#TTSZ#DeckbuildingOption(Classes="Rogue,Neutral",MinimumLevel=0,MaximumLevel=5)`
@@ -252,7 +252,6 @@ Note the order is important. Everything after the Exclude option is the base dec
 `#TTSZ#DeckbuildingOption(Classes="Neutral",MinimumLevel=0,MaximumLevel=5)`
 `#TTSZ#DeckbuildingOption(Traits="Gambit",MinimumLevel=0,MaximumLevel=4)`
 `#TTSZ#DeckbuildingOption(Traits="Rogue",MinimumLevel=0,MaximumLevel=0,CardCountLimit=5)`
-
 
 **Amanda Sharpe**
 
@@ -295,6 +294,13 @@ Exact text matching
 `#TTSZ#DeckbuildingOption(Classes="Neutral",MinimumLevel=0,MaximumLevel=5)`
 `#TTSZ#DeckbuildingOption(Traits="Firearm",MinimumLevel=0,MaximumLevel=5)`
 `#TTSZ#DeckbuildingOption(TextExact="Firearm",MinimumLevel=0,MaximumLevel=5)`
+
+**Tony Morgan**
+
+Secondary class
+
+`#TTSZ#DeckbuildingOption(Classes="Rogue,Neutral",MinimumLevel=0,MaximumLevel=5)`
+`#TTSZ#DeckbuildingOption(Name="Secondary Class",FactionSelect="Guardian,Seeker,Survivor",MinimumLevel=0,MaximumLevel=1,CardCountLimit=10,CardTypes="Event,Skill")`
 
 **Versatile**
 
