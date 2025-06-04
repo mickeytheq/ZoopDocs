@@ -1,5 +1,38 @@
 # Version History
 
+## 3.3 - 4th June 2025
+
+- Card model - substantial refactor to address other issues. No exepcted user impact but the nature of this change may have introduced unexpected issues so please report if you see any
+- Card model - Improve parsing of 'Limit' X keyword on cards
+- Card model - Fixed issue where project:// or http:// schemes were used for the path of an encounter set
+- Card model - Fixed an issue where encounter set names derived from a custom image had encoded characters (e.g. %20 instead of space)
+- Card model - Calculation of a card's quantity now incorporates Limit X keyword
+- DeckbuildingOption instruction - Add support for FactionSelect and corresponding Name field to allow secondary class selection
+- arkham.build - Populate faction_select and name where specified in investigator deckbuilding
+- arkham.build - Fixed issue where a card without a position would cause an error
+- arkham.build - Unrecognised card types/type_codes are now trapped and error'd much earlier
+- arkham.build - Cards with a portrait back now produce double_sided cards with a back_image_url instead of a separate card entity
+- arkham.build - Cards with a template replacement back on a generic card back now produce double_sided cards with a back_image_url instead of a separate card entity
+- arkham.build - Fixed an issue where using a template replacement on a card with an encounter or player card back would cause all cards with the same back to get that template
+- arkham.build - File extensions now added to encounter set/collection icon uploads
+- arkham.build - Improved quality of generated thumbnails
+- arkham.build - <bultab> with or without a preceeding \n newline is replaced to an empty string
+- arkham.build - Improve how act/agenda/story card sections are laid out
+- arkham.build - No longer fail when there are no investigator deckbuilding options or requirements
+- arkham.build - Replace Strange Eons <image> tags with HTML <img> tags and upload the source file and incorporate the resulting URL into the generated <img> tag
+- arkham.build - Fixed issue where Story card text was not populated
+- arkham.build - Fixed issue where resolutions were not correctly rendered
+- arkham.build - Add replacement logic for Strange Eons <fullnameb> tag
+- arkham.build - On each export, populate generator property in the arkham.build project file containing the Zoop, AHLCG plugin and Strange Eons versions to aid debugging
+- Collection numbering - Bonded cards now sort immediately after the card they are bonded to
+- Collection numbering - Basic weaknesses now sort after other player cards
+- Collection numbering - Signature weaknesses now always sort after non-weakness signatures
+- FTP image uploader - Fixed issue where & was used instead of ? before the cachebust parameter
+- AWS S3 image uploader - Add cachebust parameter to allow client side caching to detect changes
+- Cloudflare R2 image uploader - Add cachebust parameter to allow client side caching to detect changes
+- Inspect card - Add a table containing the card's portraits with options to view/download the images
+- Investigator populate utility - Correctly encode quotes in investigator titles when building instructions
+
 ## 3.2 - 24th May 2025
 
 - arkham.build - No longer fail when the existing JSON has properties Zoop does not recognise
