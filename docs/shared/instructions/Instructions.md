@@ -182,7 +182,7 @@ Parameters:
 
 `#TTSZ#InvestigatorSignatureFor(InvestigatorCardTitle="My Custom Investigator")`
 
-## Instruction - Investigator deckbuilding option
+## Instruction - Deckbuilding options
 
 This allows you to specify the deckbuilding options on a card.
 
@@ -192,7 +192,7 @@ Its typical usage is on an investigator card to specify the deckbuilding. You ca
 
 If you have an deckbuilding that is not supported then the workaround is to specify a single DeckbuildingOption with all classes listed and levels 0 to 5. This will allow all cards to be available and the player will have to self-manage following the deck-building rules.
 
-It is also supported on player cards for the rare cases that a player card alters the deckbuilding of the owning deck when added.
+It is also supported on player cards for the rare cases that a player card alters the deckbuilding of the owning deck when added. For example Versatile.
 
 Deckbuilding options are evaluated by card databases such as ArkhamDB and arkham.build in **top to bottom order** for each card. This is typically relevant for options that exclude cards, such as Preston. In Preston's case the 'no firearms' option must be first so that all firearms match it and are excluded, instead of matching the rogue 0-5 option which is further down the list.
 
@@ -285,7 +285,7 @@ Weird level zero options
 Regular expression matching
 
 `#TTSZ#DeckbuildingOption(Classes="Mystic,Neutral",MinimumLevel=0,MaximumLevel=5)`
-`#TTSZ#DeckbuildingOption(TextRegex="Uses (\d+ charges)",MinimumLevel=0,MaximumLevel=4)`
+`#TTSZ#DeckbuildingOption(TextRegex="Uses \(\d+ charges\)",MinimumLevel=0,MaximumLevel=4)`
 `#TTSZ#DeckbuildingOption(Traits="Occult",MinimumLevel=0,MaximumLevel=0)`
 
 **Michael McGlen**
