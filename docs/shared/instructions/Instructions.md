@@ -215,6 +215,8 @@ Parameters:
 | Name | A name for the deckbuilding option. Mandatory when FactionSelect is specified |
 | Exclude | Must be "true" or "false". If true then the rules defined by this option are an exclusion |
 
+### Examples
+
 Some example of official investigators/cards below
 
 **Roland Banks**
@@ -299,7 +301,7 @@ Exact text matching
 
 **Tony Morgan**
 
-Secondary class
+Secondary class (the below line wrapping is a documentation artifact. Zoop instructions must be on a a single line)
 
 `#TTSZ#DeckbuildingOption(Classes="Rogue,Neutral",MinimumLevel=0,MaximumLevel=5)`\
 `#TTSZ#DeckbuildingOption(Name="Secondary Class",FactionSelect="Guardian,Seeker,Survivor",`<br>`MinimumLevel=0,MaximumLevel=1,CardCountLimit=10,CardTypes="Event,Skill")`
