@@ -301,7 +301,7 @@ Exact text matching
 
 Secondary class
 
-`#TTSZ#DeckbuildingOption(Classes="Rogue,Neutral",MinimumLevel=0,MaximumLevel=5)`
+`#TTSZ#DeckbuildingOption(Classes="Rogue,Neutral",MinimumLevel=0,MaximumLevel=5)`<br>
 `#TTSZ#DeckbuildingOption(Name="Secondary Class",FactionSelect="Guardian,Seeker,Survivor",MinimumLevel=0,MaximumLevel=1,CardCountLimit=10,CardTypes="Event,Skill")`
 
 **Versatile**
