@@ -284,8 +284,8 @@ Weird level zero options
 
 Regular expression matching
 
-`#TTSZ#DeckbuildingOption(Classes="Mystic,Neutral",MinimumLevel=0,MaximumLevel=5)`
-`#TTSZ#DeckbuildingOption(TextRegex="Uses \(\d+ charges\)",MinimumLevel=0,MaximumLevel=4)`
+`#TTSZ#DeckbuildingOption(Classes="Mystic,Neutral",MinimumLevel=0,MaximumLevel=5)`\
+`#TTSZ#DeckbuildingOption(TextRegex="Uses \(\d+ charges\)",MinimumLevel=0,MaximumLevel=4)`\
 `#TTSZ#DeckbuildingOption(Traits="Occult",MinimumLevel=0,MaximumLevel=0)`
 
 **Michael McGlen**
@@ -301,7 +301,7 @@ Exact text matching
 
 Secondary class
 
-`#TTSZ#DeckbuildingOption(Classes="Rogue,Neutral",MinimumLevel=0,MaximumLevel=5)`<br>
+`#TTSZ#DeckbuildingOption(Classes="Rogue,Neutral",MinimumLevel=0,MaximumLevel=5)`\
 `#TTSZ#DeckbuildingOption(Name="Secondary Class",FactionSelect="Guardian,Seeker,Survivor",MinimumLevel=0,MaximumLevel=1,CardCountLimit=10,CardTypes="Event,Skill")`
 
 **Versatile**
