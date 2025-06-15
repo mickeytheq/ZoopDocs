@@ -82,7 +82,7 @@ The ordering logic is described below. The logic is described as set of rules li
     - Agendas
     - Acts
     - Locations
-    - Story Assets
+    - Story Assets/Events/Skills
     - Keys
     - Story Weakness Treacheries
     - Story Weakness Enemies
