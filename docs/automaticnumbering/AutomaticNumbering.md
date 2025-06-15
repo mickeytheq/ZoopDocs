@@ -74,6 +74,8 @@ The ordering logic is described below. The logic is described as set of rules li
 
 - Encounter Set identity
     - The name of the encounter set OR the image path used for the ‘Custom encounter set’ option
+- Encounter Set number
+    - The numbering of the encounter set, e.g. 1-3 is before 4-5 which is before 6
 - Card type of the front face of the card in the following order
     - Scenario/Campaign Rules
     - Chaos token effects
@@ -82,8 +84,8 @@ The ordering logic is described below. The logic is described as set of rules li
     - Locations
     - Story Assets
     - Keys
-    - Weakness Treacheries
-    - Weakness Enemies
+    - Story Weakness Treacheries
+    - Story Weakness Enemies
     - Stories
     - Investigators
     - Everything else
@@ -93,6 +95,8 @@ The ordering logic is described below. The logic is described as set of rules li
     - This is the letter of the agenda or act to ensure cards sets comprising multiple agenda or acts decks are sorted correctly (for example an a/b deck and a c/d deck)
 - Agenda or Act number
     - The typical ordering of an agenda or act deck, e.g. 1a/1b, 2a/2b, 3a/3b
+- Weakness vs non-weakness
+    - Weaknesses are placed after other player cards
 - Player card class
     - Single class is ordered before dual class which is ordered before triple class etc
     - Then ordered by individual classes in this order
@@ -102,17 +106,20 @@ The ordering logic is described below. The logic is described as set of rules li
         - Mystic
         - Survivor
         - Neutral
+- Specialist cards
+    - Specialist cards have a Neutral card class and are sorted after regular Neutral cards
 - Player card level
     - Lower levels first
 - Player card type
     - Asset, then Event, then Skill
-- Encounter Set number
-    - The numbering of the encounter set, e.g. 1-3 is before 4-5 which is before 6
 - Filename of the card in alphabetical order
 
 ## Ordering tweaks
 
-If you use the [InvestigatorSignatureFor](../shared/instructions/Instructions.md#instruction--link-signatures-to-investigator) instruction to link signatures to their investigator, Zoop will order the linked signatures immediately after the investigator card, overriding the rules above.
+The following overrides replace the above logic
+
+- If you use the [InvestigatorSignatureFor](../shared/instructions/Instructions.md#instruction--link-signatures-to-investigator) instruction to link signatures to their investigator, Zoop will order the linked signatures immediately after the investigator card
+- A card bonded to another card, e.g. Bloodlust to The Hungering Blade, the Bloodlusts are ordered immediately after The Hunger Blade
 
 ## Encounter set numbering
 
