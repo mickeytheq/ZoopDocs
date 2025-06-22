@@ -14,8 +14,8 @@ Some of the available metadata fields are not populated by Zoop. The following t
 | Arkham DB card id | GMNotes id and alternate_ids | Supported – see notes below |
 | Card class | GMNotes class field | Supported |
 | Traits | GMNotes traits field | Supported |
-| Starts in play | GMNotes startsInPlay field | Not supported |
-| Starts in hand | GMNotes startsInHand field | Not supported |
+| Starts in play | GMNotes startsInPlay field | Supported (requires an instruction) |
+| Starts in hand | GMNotes startsInHand field | Supported (requires an instruction) |
 | Resource cost | GMNotes cost field | Supported |
 | Level	| GMNotes level field | Supported |
 | Permanent | GMNotes permanent field | Supported |
@@ -23,7 +23,7 @@ Some of the available metadata fields are not populated by Zoop. The following t
 | Basic weakness count | GMNotes basicWeaknessCount field | Not supported |
 | Hidden | GMNotes hidden field | Supported |
 | Uses on assets | GMNotes uses field | Supported |
-| Bonded cards | GMNotes bonded field | Not supported |
+| Bonded cards | GMNotes bonded field | Supported |
 | Skill icons | GMNotes willpowerIcons, intellectIcons, fightIcons, agilityIcons, wildIcons | Supported |
 | Dynamic skill icons | GMNotes dynamicSkillIcons | Not supported |
 | Negative skill icons | GMNotes negativeSkillIcons | Not supported |
