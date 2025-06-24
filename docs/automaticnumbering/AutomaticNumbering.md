@@ -124,6 +124,7 @@ The following overrides replace the above logic
 
 - If you use the [InvestigatorSignatureFor](../shared/instructions/Instructions.md#instruction--link-signatures-to-investigator) instruction to link signatures to their investigator, Zoop will order the linked signatures immediately after the investigator card
 - A card bonded to another card, e.g. Bloodlust to The Hungering Blade, the Bloodlusts are ordered immediately after The Hunger Blade
+    - In the case that there are multiple card to bond to, e.g. Hallowed Mirror has level 0 and level 3 variants, the bonded cards will sort after the first of the candidates card. In most cases this will be the lower level card
 
 ## Encounter set numbering
 
