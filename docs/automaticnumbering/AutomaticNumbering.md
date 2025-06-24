@@ -110,8 +110,12 @@ The ordering logic is described below. The logic is described as set of rules li
     - Specialist cards have a Neutral card class and are sorted after regular Neutral cards
 - Player card level
     - Lower levels first
-- Player card type
-    - Asset, then Event, then Skill
+- Secondary card type - serves to sub-sort by type for weaknesses, regular player cards and encounter cards
+    - Asset
+    - Event
+    - Skill
+    - Enemy
+    - Treachery
 - Filename of the card in alphabetical order
 
 ## Ordering tweaks
