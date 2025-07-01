@@ -10,7 +10,9 @@ To open the feature r-click the Zoop menu on any file or folder and select `Sear
 
 The search/replace dialog will then open. You can do multiple operations while this screen is open, you do not need to close/re-open each time.
 
-There are three different modes
+![image](https://github.com/user-attachments/assets/c3934cb0-6bf3-4d19-9b35-54862082f854)
+
+There are three different search types/modes
 
 - Plain-text - Regular searching for and replacing with text
 - Regular expression - Searches using a user-provied regular expression and can replace content using regular expression group references or a literal string
@@ -57,4 +59,9 @@ After you have enter the options you can hit the `Search` button to do a search 
 
 For a search the results will be shown in the results table at the bottom of the dialog. Each row represents one location in a card. If multiple locations (e.g. fields such as game text and keywords) on a single card matched you will see multiple entries per card.
 
+![image](https://github.com/user-attachments/assets/4e64a025-a7f3-4a8f-b1ef-9ebe6e39c26d)
+
 To do a replace enter the appropriate replacement text (empty strings are allowed), select the rows in the table to perform the replace on and hit the `Replace` button. You will see a results preview where each change is highlighted (red strikeout for removals, green for additions). You can then hit `Replace` to confirm the replace operation or `Cancel` to abort. Regardless you will see the Zoop progress dialog logging the activity which you can review if you wish and then hit `Close`.
+
+![image](https://github.com/user-attachments/assets/3971f1ec-66e7-41d8-b5af-9d03a81b8066)
+
