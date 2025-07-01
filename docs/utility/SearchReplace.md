@@ -38,7 +38,7 @@ If you're familiar with regular expressions most standard constructs are support
 
 **Replace options**
 
-- Replace mode - `Literal` is the default and easiest to use as it simply replaces the matched text with the provided string. `Regular expression` mode allows use of group references (e.g. $1) to the regular expression provided in the search options
+- Replace mode - `Literal` is the default and easiest to use as it simply replaces the matched text with the provided string. `Regular expression` mode allows use of group references (e.g. $1) to the regular expression provided in the search options. Be aware with this latter mode that `$` and `\` are special characters and need to be escaped with a backslash `\` if you wish to include them as literals in the replace string
 
 ### Image paths
 
