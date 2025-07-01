@@ -12,6 +12,7 @@ The primary features of Zoop are
 - [Print and Play export](printandplay/PrintAndPlay.md) - Export of card images to a local directory for Print and Play purposes. Provides output compatible with the [MPC chrome extension](https://chromewebstore.google.com/detail/mpc-project-helper/oigcfklkajlgkeblpngmbgjniiejabko?hl=en-GB&pli=1)
 - [Card database export](carddatabaseexport/CardDatabaseExport.md) - Export of card data with images to a database format compatible with online card databases such as [arkham.build](https://arkham.build).
 - [Automatic numbering](automaticnumbering/AutomaticNumbering.md) - Automatically generates collection and encounter numbering for your cards.
+- [Search/replace](utility/SearchReplace.md) - Search/replace Strange Eons content.
 - [Bulk update](bulkupdate/BulkUpdate.md) - Bulk update a selection of cards on multiple cards. For example updating the Collection or Encounter Set information across a set of cards or an entire project.
 - [Export and import](exportimport/ExportImport.md) - Export and import of card details to/from Excel for external editing. Useful for translating to a different language in a more convenient format than within Strange Eons.
 
