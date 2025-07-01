@@ -6,7 +6,7 @@ This feature allows a user to both search for and search/replace content in Stra
 
 ## Usage
 
-To open the feature r-click the Zoop menu on any file or folder and select `Utility -> Search/replace`.
+To open the feature r-click the Zoop menu on any file or folder and select `Search/replace`. The scope of subsequent searches is what you have selected here, either a single file or a folder and all descendants.
 
 The search/replace dialog will then open. You can do multiple operations while this screen is open, you do not need to close/re-open each time.
 
