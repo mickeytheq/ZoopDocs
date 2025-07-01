@@ -51,3 +51,10 @@ Unlike other options if no search text is provided it will search all possible a
 
 - Replace action - `Search/replace path` is like a regular search/replace that will update the path strings as specified. `Change path separators` is for specifically updating path separators on paths while leaving the other path content untouched
 - Change separator - Only available when `Change path separators` action is being used. The options are self-explanatory
+
+
+After you have enter the options you can hit the `Search` button to do a search of matching content or a `Replace` to do a search/replace. Typically you will need to do a search first to identify and select the content to be replaced.
+
+For a search the results will be shown in the results table at the bottom of the dialog. Each row represents one location in a card. If multiple locations (e.g. fields such as game text and keywords) on a single card matched you will see multiple entries per card.
+
+To do a replace enter the appropriate replacement text (empty strings are allowed), select the rows in the table to perform the replace on and hit the `Replace` button. You will see a results preview where each change is highlighted (red strikeout for removals, green for additions). You can then hit `Replace` to confirm the replace operation or `Cancel` to abort. Regardless you will see the Zoop progress dialog logging the activity which you can review if you wish and then hit `Close`.
