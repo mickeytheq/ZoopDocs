@@ -1,5 +1,33 @@
 # Version History
 
+## 3.4 - TBD
+
+- Search/replace - New feature that supports search/replacing across multiple cards and fields with plain-text, regular expression and image path options
+- Image upload - Added support for Steam Cloud using TTS Steam app id
+- Card model - Add specialist support
+- Card model - Add parsing of trait restrictions to the keyword field (e.g. Bound for the Horizon)
+- UX - Change all operations that cannot have open/edited files to prompt user to allow save/close of those windows instead of cancelling the process
+- Instruction DeckbuildingOption - Add support for slot and uses
+- Instruction StartsInPlay - Added new instruction
+- Instruction StartsInHand - Added new instruction
+- TTS export - Add specialist trait restrictions to metadata
+- TTS export - Added startsInPlay/Hand metadata where specified by instruction
+- TTS export - Add bonded information to metadata
+- TTS export - Changed local file paths to not be URL encoded as these are not accepted by TTS upload local to cloud function
+- arkham.build - Convert `\n<bultab><bul>` to `\n-`
+- arkham.build - Add trait restrictions to card output
+- arkham.build - Fix the Help button
+- arkham.build - Add button to clear card data from the current project file (leaves setting unchanged)
+- arkham.build - Improve UX of managing project settings file by requiring the file chooser be specifically opened to select/specify a file
+- arkham.build - Fixed bug where assets' health and sanity were not populated
+- arkham.build - Change bonded card to use title instead of GUID when linking cards as there can be multiple versions/levels of cards to bond to, e.g. Hallowed Mirror
+- arkham.build - Force signature cards to never have a level/xp regardless of what the card configuration is
+- Collection numbering - Order specialist after regular Neural cards
+- Collection numbering - Sort story assets/events/skills together
+- Collection numbering - Change sorting so story cards with player card backs are at the end of an encounter set rather than being grouped with story cards with encounter card back (latter position is unchanged)
+- Inspect card - Disable all instructions when using this utility
+- Investigator populate - When linking a signature to an investigator card use the filename instead of title to improve robustness
+
 ## 3.3 - 4th June 2025
 
 - Card model - substantial refactor to address other issues. No exepcted user impact but the nature of this change may have introduced unexpected issues so please report if you see any
