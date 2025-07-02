@@ -346,6 +346,30 @@ Parameters:
 
 `#TTSZ#EncounterSet(Name="Chilling Cold")`
 
+## Instruction - Starts in play
+
+Specifies that the card starts in play. May be used by downstream systems to implement appropriate logic.
+
+Instruction key: StartsInPlay
+
+Parameters: None
+
+### Example
+
+`#TTSZ#StartsInPlay`
+
+## Instruction - Starts in hand
+
+Specifies that the card starts in hand. May be used by downstream systems to implement appropriate logic.
+
+Instruction key: StartsInHand
+
+Parameters: None
+
+### Example
+
+`#TTSZ#StartsInHand`
+
 ## Instruction – Specify SCED location metadata
 
 This instruction allows overriding some of the default SCED metadata that determines how locations functions. The SCED mod automatically draws lines between connecting locations. You can use this instruction to add/replace a location’s icons and connections and/or force a non-location card to act like a location for connection purposes. See [SCED metadata](../../tts/ScedMetadata.md) for further details on metadata.
