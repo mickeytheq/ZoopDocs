@@ -1,6 +1,6 @@
 # Version History
 
-## 3.4 - TBD
+## 3.4 - 3rd July 2025
 
 - Search/replace - New feature that supports search/replacing across multiple cards and fields with plain-text, regular expression and image path options
 - Image upload - Added support for Steam Cloud using TTS Steam app id
