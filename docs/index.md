@@ -8,9 +8,9 @@ It provides quality-of-life tools to improve the management of homebrew Arkham L
 
 The primary features of Zoop are
 
-- [Export to TTS](tts/TtsExport.md) - Export of card images, upload of card images to a cloud host and creation/updates to a TTS saved object for use within the SCED TTS mod for Arkham LCG. Includes creation of the [SCED metadata information](tts/ScedMetadata.md).
+- [Export to TTS](tts/TtsExport.md) - Export of card images, [image upload](imageupload/ImageUpload.md) of card images to a cloud host and creation/updates to a TTS saved object for use within the SCED TTS mod for Arkham LCG. Includes creation of the [SCED metadata information](tts/ScedMetadata.md).
 - [Print and Play export](printandplay/PrintAndPlay.md) - Export of card images to a local directory for Print and Play purposes. Provides output compatible with the [MPC chrome extension](https://chromewebstore.google.com/detail/mpc-project-helper/oigcfklkajlgkeblpngmbgjniiejabko?hl=en-GB&pli=1)
-- [Card database export](carddatabaseexport/CardDatabaseExport.md) - Export of card data with images to a database format compatible with online card databases such as [arkham.build](https://arkham.build).
+- [Card database export](carddatabaseexport/CardDatabaseExport.md) - Export of card images, [image upload](../imageupload/ImageUpload.md) of card images to a cloud host and creation of file in a format compatible with online card databases such as [arkham.build](https://arkham.build).
 - [Automatic numbering](automaticnumbering/AutomaticNumbering.md) - Automatically generates collection and encounter numbering for your cards.
 - [Search/replace](utility/SearchReplace.md) - Search/replace Strange Eons content.
 - [Bulk update](bulkupdate/BulkUpdate.md) - Bulk update a selection of cards on multiple cards. For example updating the Collection or Encounter Set information across a set of cards or an entire project.
