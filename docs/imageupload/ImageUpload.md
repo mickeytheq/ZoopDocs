@@ -8,6 +8,8 @@ Zoop provides several image upload options which require different configuration
 
 Please consult the table below for options and some light comparison. A ^ indicates a caveat, review the notes.
 
+Disclaimer: The recommended option is based on community feedback and my own interpretation of how suitable these options are, please do your own research etc.
+
 | Image host | Recommended | Setup complexity | Free option? | Rate-limiting? | Notes |
 | --- | --- | --- | --- | --- | --- |
 | [Imgur](Imgur.md) | Yes | Low | Yes | Yes | |
