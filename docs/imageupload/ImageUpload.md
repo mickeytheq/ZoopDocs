@@ -10,8 +10,8 @@ Please consult the table below for options and some light comparison.
 
 | Image host | Recommended | Setup complexity | Free option? | Rate-limiting? | Notes |
 | --- | --- | --- | --- | --- | --- |
-| [Imgur](imgur.md) | Yes | Low | Yes | Yes | |
-| [Imgbb](imgbb.md) | Yes^ | Low | Yes | Yes | Long-term reliability issues occasionally reported |
+| [Imgur](Imgur.md) | Yes | Low | Yes | Yes | |
+| [Imgbb](Imgbb.md) | Yes^ | Low | Yes | Yes | Long-term reliability issues occasionally reported |
 | [Cloudinary](Cloudinary.md) | Yes | Low | Yes | Yes | |
 | [Dropbox](DropboxOAuth.md) | Yes | Medium | No | Unknown | |
 | [Steam Cloud](SteamCloud.md) | Yes^ | Low | Yes | Unknown | Recently added, limited testing. Unusual configuration/pre-requisites, consult the link for details |
