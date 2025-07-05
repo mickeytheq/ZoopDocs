@@ -9,7 +9,7 @@ Zoop provides several image upload options which require different configuration
 Please consult the table below for options and some light comparison.
 
 | Image host | Recommended | Setup complexity | Free option? | Rate-limiting? | Notes |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | [Imgur](imgur.md) | Yes | Low | Yes | Yes | |
 | [Imgbb](imgbb.md) | Yes^ | Low | Yes | Yes | Long-term reliability issues occasionally reported |
 | [Cloudinary](Cloudinary.md) | Yes | Low | Yes | Yes | |
