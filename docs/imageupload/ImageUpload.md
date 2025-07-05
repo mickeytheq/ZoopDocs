@@ -15,7 +15,7 @@ Please consult the table below for options and some light comparison. A ^ indica
 | [Cloudinary](Cloudinary.md) | Yes | Low | Yes | Yes | |
 | [Dropbox](DropboxOAuth.md) | Yes | Medium | No | Unknown | |
 | [Steam Cloud](SteamCloud.md) | Yes^ | Low | Yes | Unknown | Recently added, limited testing. Unusual configuration/pre-requisites, consult the link for details |
-| [AWS S3](AwsS3.md) | Yes^ | High | No | No | Free-option with time-limited free-tier only |
+| [AWS S3](AwsS3.md) | Yes^ | High | Yes^ | No | Free-option with time-limited free-tier only |
 | [Cloudflare R2](CloudflareR2.md) | Yes^ | High | Yes^ | No | Free-option with time-limited free-tier only |
 | [FTP](Ftp.md) | No | High | No | No | For advanced uses/niche use cases only |
 | [Local](Local.md) | Yes^ | Low | N/A | N/A | Suitable for local testing |
