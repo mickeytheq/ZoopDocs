@@ -6,7 +6,7 @@ This is used by multiple Zoop functions including exporting to TTS and exporting
 
 Zoop provides several image upload options which require different configurations and have different levels of complexity.
 
-Please consult the table below for options and some light comparison.
+Please consult the table below for options and some light comparison. A ^ indicates a caveat, review the notes.
 
 | Image host | Recommended | Setup complexity | Free option? | Rate-limiting? | Notes |
 | --- | --- | --- | --- | --- | --- |
