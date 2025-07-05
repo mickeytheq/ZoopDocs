@@ -20,7 +20,7 @@ Zoop can automatically extract most card content from Strange Eons files to buil
 - Location shroud and clues
 - Rendered card images, front and back faces
 - Collection numbers
-- Encounter sets and encounter set numbers - see [Encounter Sets](../shared/encounterset/EncounterSet.md) for details
+- Encounter sets and encounter set numbers - see [encounter sets](../shared/encounterset/EncounterSet.md) for details
 - Enemy statistics, keywords and game text
 - Victory
 - Act and agenda numbering
@@ -51,7 +51,7 @@ The options are
 | --- | --- |
 | Logging Level | Generally, you can leave this on Normal. If you want more details or feedback on the process set it to the other options for more logging. This does not impact the behaviour or output in any way |
 | Card data export target | Pick the target card database. This will change the options below |
-| Image storage to | Selects the cloud host to upload card images.<br>See the [FAQ](../FAQ.md) for how to configure various cloud image accounts.<br>The Always fail option is primarily for testing and should not be used for normal usage.<br>Some cloud hosts implement rate limiting. Therefore, when uploading a lot of new files you may run into an error that mentions a non-200 status was returned and a message mentioning rate limiting. If this happens, either wait a period of time (minutes/hours) and try again or switch to the other cloud host |
+| Image storage to | Selects the cloud host to upload card images.<br>See [image upload](../imageupload/ImageUpload.md) for details.<br>The Always fail option is primarily for testing and should not be used for normal usage.<br>Some cloud hosts implement rate limiting. Therefore, when uploading a lot of new files you may run into an error that mentions a non-200 status was returned and a message mentioning rate limiting. If this happens, either wait a period of time (minutes/hours) and try again or switch to the other cloud host |
 | Export images folder | The folder on your local computer where you want Zoop to export all the card images. A temporary area such as C:\Temp is appropriate for this. |
 
 ### arkham.build options
