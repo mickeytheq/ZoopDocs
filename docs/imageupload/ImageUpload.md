@@ -16,7 +16,7 @@ Disclaimer: The recommended option is based on community feedback and my own int
 | [Imgbb](Imgbb.md) | Yes^ | Low | Yes | Yes | Long-term reliability issues occasionally reported |
 | [Cloudinary](Cloudinary.md) | Yes | Low | Yes | Yes | |
 | [Dropbox](DropboxOAuth.md) | Yes | Medium | No | Unknown | |
-| [Steam Cloud](SteamCloud.md) | Yes^ | Low | Yes | Unknown | Recently added, limited testing. Unusual configuration/pre-requisites, consult the link for details |
+| [Steam Cloud](SteamCloud.md) | Yes^ | Medium | Yes | Unknown | Recently added, limited testing. Unusual configuration/pre-requisites, consult the link for details |
 | [AWS S3](AwsS3.md) | Yes^ | High | Yes^ | No | Advanced users only. Free-option with time-limited free-tier only |
 | [Cloudflare R2](CloudflareR2.md) | Yes^ | High | Yes^ | No | Advanced users only. Free-option with time-limited free-tier only |
 | [FTP](Ftp.md) | No | High | No | No | For advanced uses/niche use cases only |
