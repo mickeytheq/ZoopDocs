@@ -4,7 +4,7 @@ Part of Zoop's core function is to upload images exported from Strange Eons to a
 
 This is used by multiple Zoop functions including exporting to TTS and exporting to card databases such as arkham.build.
 
-Zoop provides several image upload options which require different configurations and have different levels of complexity.
+Zoop provides several image upload options which require different configurations and have different levels of complexity. Zoop does not provide any storage itself so the user must pre-configure one of the options below and provide necessary details to Zoop. Further details are provided in each of the links below.
 
 Please consult the table below for options and some light comparison. A ^ indicates a caveat, review the notes.
 
