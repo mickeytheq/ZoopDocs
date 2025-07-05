@@ -19,3 +19,7 @@ Please consult the table below for options and some light comparison. A ^ indica
 | [Cloudflare R2](CloudflareR2.md) | Yes^ | High | Yes^ | No | Advanced users only. Free-option with time-limited free-tier only |
 | [FTP](Ftp.md) | No | High | No | No | For advanced uses/niche use cases only |
 | [Local](Local.md) | Yes^ | Low | N/A | N/A | Suitable for local testing |
+
+## Rate-limiting
+
+Many image hosts, particularly free ones, implement rate-limiting. When you are working with a larger projects and uploading many images Zoop may encounter an error from the image host. If the error message contains anything about rate-limiting, too many requests or words to that effect, you can assume you've hit that limit. The workaround is to wait (typically an hour or so) for the limit to reset and try again. Zoop will remember how far you got and pickup from the error. Or you can explore paid options for that or a different image host.
