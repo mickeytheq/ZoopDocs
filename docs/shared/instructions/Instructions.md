@@ -5,11 +5,13 @@
 
 Zoop supports embedding instructions on cards. These instructions will drive behaviour during Zoop processes.
 
-Each instruction is a single line in the comments field of the card. An instruction always starts with #TTSZ# to identify it to Zoop as a specific instruction. Immediately after the second # you specify the name of the instruction and any parameters for that instruction. Each instruction and its parameters are documented below.
+Each instruction is a single line in the **comments** field of the card. An instruction always starts with `#ZOOP#` to identify it to Zoop as a specific instruction. Immediately after the second # you specify the name of the instruction and any parameters for that instruction. Each instruction and its parameters are documented below.
+
+**Note:** In previous versions of Zoop `#TTSZ#' was the prefix used to identify a zoop instruction. This is still supported but considered legacy.
 
 Parameter values are enclosed in double quotes. If you need a genuine double quote in a parameter value, put two double quotes instead of one. For example
 
-`#TTSZ#ReplaceCardFace(ReplaceFace="Back",CopyCardTitle="""Booo"" to a goose",CopyCardFace="Back")`
+`#ZOOP#ReplaceCardFace(ReplaceFace="Back",CopyCardTitle="""Booo"" to a goose",CopyCardFace="Back")`
 
 Instructions and their parameters are case sensitive.
 
@@ -51,7 +53,7 @@ Parameters:
 
 The following example will replace the back face of the current card with the back face of the card titled “Shared Back”
 
-`#TTSZ#ReplaceCardFace(ReplaceFace="Back",CopyCardTitle="Shared Back",CopyCardFace="Back")`
+`#ZOOP#ReplaceCardFace(ReplaceFace="Back",CopyCardTitle="Shared Back",CopyCardFace="Back")`
  
 ## Instruction - Swap card faces
 
@@ -65,7 +67,7 @@ Parameters: None
 
 The following example will swap the faces
 
-`#TTSZ#SwapCardFaces`
+`#ZOOP#SwapCardFaces`
  
 ## Instruction - Override a card's image
 
@@ -86,7 +88,7 @@ Parameters:
 
 The following example will replace the output image of the front face of the current card with the specified file.
 
-`#TTSZ#OverrideCardFaceImage(ReplaceFace="Front",OverrideImagePath="UseThisInstead.jpg")`
+`#ZOOP#OverrideCardFaceImage(ReplaceFace="Front",OverrideImagePath="UseThisInstead.jpg")`
 
 
 ## Instruction - Exclude
@@ -101,7 +103,7 @@ Parameters: None
 
 The following example will exclude the card
 
-`#TTSZ#Exclude`
+`#ZOOP#Exclude`
 
 ## Instruction - Quantity
 
@@ -123,7 +125,7 @@ Parameters:
 
 The following example will product 3 copies of the card rather than the default.
 
-`#TTSZ#Quantity(Quantity="3")`
+`#ZOOP#Quantity(Quantity="3")`
 
 ## Instruction – TTS Card Options
 
@@ -143,7 +145,7 @@ Parameters:
 
 The following example will set the TTS sideways flag of the card to true.
 
-`#TTSZ#TtsCardOptions(SidewaysCard="true")`
+`#ZOOP#TtsCardOptions(SidewaysCard="true")`
 
 ## Instruction – Link investigator mini card
 
@@ -161,7 +163,7 @@ Parameters:
 
 ### Example
 
-`#TTSZ#InvestigatorMiniCardFor(InvestigatorCardTitle="My Custom Investigator")`
+`#ZOOP#InvestigatorMiniCardFor(InvestigatorCardTitle="My Custom Investigator")`
 
 ## Instruction – Link signatures to investigator
 
@@ -180,7 +182,7 @@ Parameters:
 
 ### Example
 
-`#TTSZ#InvestigatorSignatureFor(InvestigatorCardTitle="My Custom Investigator")`
+`#ZOOP#InvestigatorSignatureFor(InvestigatorCardTitle="My Custom Investigator")`
 
 ## Instruction - Deckbuilding options
 
@@ -223,15 +225,15 @@ Some example of official investigators/cards below
 
 Straight-forward classes and levels
 
-`#TTSZ#DeckbuildingOption(Classes="Guardian,Neutral",MinimumLevel="0",MaximumLevel="5")`
-`#TTSZ#DeckbuildingOption(Classes="Seeker",MinimumLevel="0",MaximumLevel="2")`
+`#ZOOP#DeckbuildingOption(Classes="Guardian,Neutral",MinimumLevel="0",MaximumLevel="5")`
+`#ZOOP#DeckbuildingOption(Classes="Seeker",MinimumLevel="0",MaximumLevel="2")`
 
 **Zoe Samaras**
 
 Example of a limited number of cards from level 0
 
-`#TTSZ#DeckbuildingOption(Classes="Guardian,Neutral",MinimumLevel=0,MaximumLevel=5)`
-`#TTSZ#DeckbuildingOption(MinimumLevel=0,MaximumLevel=0,CardCountLimit=5)`
+`#ZOOP#DeckbuildingOption(Classes="Guardian,Neutral",MinimumLevel=0,MaximumLevel=5)`
+`#ZOOP#DeckbuildingOption(MinimumLevel=0,MaximumLevel=0,CardCountLimit=5)`
 
 **Preston Fairmont**
 
@@ -239,9 +241,9 @@ Exclusion example
 
 Note that in this case the exclusions MUST come first in the list. Anything before an Exclude=True instruction will be treated as an 'unless'.
 
-`#TTSZ#DeckbuildingOption(Exclude="true",Traits="Illicit")`
-`#TTSZ#DeckbuildingOption(Classes="Rogue,Neutral",MinimumLevel=0,MaximumLevel=5)`
-`#TTSZ#DeckbuildingOption(Classes="Survivor",MinimumLevel=0,MaximumLevel=2)`
+`#ZOOP#DeckbuildingOption(Exclude="true",Traits="Illicit")`
+`#ZOOP#DeckbuildingOption(Classes="Rogue,Neutral",MinimumLevel=0,MaximumLevel=5)`
+`#ZOOP#DeckbuildingOption(Classes="Survivor",MinimumLevel=0,MaximumLevel=2)`
 
 **Rex Murphy (parallel)**
 
@@ -249,68 +251,68 @@ Example of excluding cards with exceptions.
 
 Note the order is important. Everything after the Exclude option is the base deckbuilding. Then the Exclude is layered on top to remove certain cards from the pool. Then any options above the Exclude are applied to re-add certain cards to the pool.
 
-`#TTSZ#DeckbuildingOption(Classes="Neutral",Traits="Cursed",MinimumLevel=0,MaximumLevel=5)`
-`#TTSZ#DeckbuildingOption(Traits="Cursed",MinimumLevel=0,MaximumLevel=4)`
-`#TTSZ#DeckbuildingOption(Exclude="true",Traits="Fortune,Blessed")`
-`#TTSZ#DeckbuildingOption(Classes="Seeker",MinimumLevel=0,MaximumLevel=3)`
-`#TTSZ#DeckbuildingOption(Classes="Neutral",MinimumLevel=0,MaximumLevel=5)`
-`#TTSZ#DeckbuildingOption(Traits="Gambit",MinimumLevel=0,MaximumLevel=4)`
-`#TTSZ#DeckbuildingOption(Traits="Rogue",MinimumLevel=0,MaximumLevel=0,CardCountLimit=5)`
+`#ZOOP#DeckbuildingOption(Classes="Neutral",Traits="Cursed",MinimumLevel=0,MaximumLevel=5)`
+`#ZOOP#DeckbuildingOption(Traits="Cursed",MinimumLevel=0,MaximumLevel=4)`
+`#ZOOP#DeckbuildingOption(Exclude="true",Traits="Fortune,Blessed")`
+`#ZOOP#DeckbuildingOption(Classes="Seeker",MinimumLevel=0,MaximumLevel=3)`
+`#ZOOP#DeckbuildingOption(Classes="Neutral",MinimumLevel=0,MaximumLevel=5)`
+`#ZOOP#DeckbuildingOption(Traits="Gambit",MinimumLevel=0,MaximumLevel=4)`
+`#ZOOP#DeckbuildingOption(Traits="Rogue",MinimumLevel=0,MaximumLevel=0,CardCountLimit=5)`
 
 **Amanda Sharpe**
 
 Trait + card type example
 
-`#TTSZ#DeckbuildingOption(Classes="Seeker,Neutral",MinimumLevel=0,MaximumLevel=5)`
-`#TTSZ#DeckbuildingOption(Traits="Practiced",CardTypes="Skill",MinimumLevel=0,MaximumLevel=3)`
+`#ZOOP#DeckbuildingOption(Classes="Seeker,Neutral",MinimumLevel=0,MaximumLevel=5)`
+`#ZOOP#DeckbuildingOption(Traits="Practiced",CardTypes="Skill",MinimumLevel=0,MaximumLevel=3)`
 
 **Finn Edwards**
 
 Mix of traits, levels and classes
 
-`#TTSZ#DeckbuildingOption(Classes="Neutral",MinimumLevel=0,MaximumLevel=5)`
-`#TTSZ#DeckbuildingOption(Classes="Rogue",MinimumLevel=0,MaximumLevel=3)`
-`#TTSZ#DeckbuildingOption(Traits="Illicit",MinimumLevel=0,MaximumLevel=5)`
-`#TTSZ#DeckbuildingOption(Classes="Seeker,Survivor",MinimumLevel=0,MaximumLevel=0,CardCountLimit=5)`
+`#ZOOP#DeckbuildingOption(Classes="Neutral",MinimumLevel=0,MaximumLevel=5)`
+`#ZOOP#DeckbuildingOption(Classes="Rogue",MinimumLevel=0,MaximumLevel=3)`
+`#ZOOP#DeckbuildingOption(Traits="Illicit",MinimumLevel=0,MaximumLevel=5)`
+`#ZOOP#DeckbuildingOption(Classes="Seeker,Survivor",MinimumLevel=0,MaximumLevel=0,CardCountLimit=5)`
 
 **Bob Jenkins**
 
 Weird level zero options
 
-`#TTSZ#DeckbuildingOption(Classes="Neutral",MinimumLevel=0,MaximumLevel=5)`
-`#TTSZ#DeckbuildingOption(Classes="Survivor",MinimumLevel=0,MaximumLevel=0)`
-`#TTSZ#DeckbuildingOption(Classes="Rogue",MinimumLevel=1,MaximumLevel=5)`
-`#TTSZ#DeckbuildingOption(Classes="Rogue",MinimumLevel=0,MaximumLevel=0,CardCountLimit=5)`
+`#ZOOP#DeckbuildingOption(Classes="Neutral",MinimumLevel=0,MaximumLevel=5)`
+`#ZOOP#DeckbuildingOption(Classes="Survivor",MinimumLevel=0,MaximumLevel=0)`
+`#ZOOP#DeckbuildingOption(Classes="Rogue",MinimumLevel=1,MaximumLevel=5)`
+`#ZOOP#DeckbuildingOption(Classes="Rogue",MinimumLevel=0,MaximumLevel=0,CardCountLimit=5)`
 
 **Akachi Onyele**
 
 Regular expression matching
 
-`#TTSZ#DeckbuildingOption(Classes="Mystic,Neutral",MinimumLevel=0,MaximumLevel=5)`\
-`#TTSZ#DeckbuildingOption(TextRegex="Uses \(\d+ charges\)",MinimumLevel=0,MaximumLevel=4)`\
-`#TTSZ#DeckbuildingOption(Traits="Occult",MinimumLevel=0,MaximumLevel=0)`
+`#ZOOP#DeckbuildingOption(Classes="Mystic,Neutral",MinimumLevel=0,MaximumLevel=5)`\
+`#ZOOP#DeckbuildingOption(TextRegex="Uses \(\d+ charges\)",MinimumLevel=0,MaximumLevel=4)`\
+`#ZOOP#DeckbuildingOption(Traits="Occult",MinimumLevel=0,MaximumLevel=0)`
 
 **Michael McGlen**
 
 Exact text matching
 
-`#TTSZ#DeckbuildingOption(Classes="Rogue",MinimumLevel=0,MaximumLevel=3)`
-`#TTSZ#DeckbuildingOption(Classes="Neutral",MinimumLevel=0,MaximumLevel=5)`
-`#TTSZ#DeckbuildingOption(Traits="Firearm",MinimumLevel=0,MaximumLevel=5)`
-`#TTSZ#DeckbuildingOption(TextExact="Firearm",MinimumLevel=0,MaximumLevel=5)`
+`#ZOOP#DeckbuildingOption(Classes="Rogue",MinimumLevel=0,MaximumLevel=3)`
+`#ZOOP#DeckbuildingOption(Classes="Neutral",MinimumLevel=0,MaximumLevel=5)`
+`#ZOOP#DeckbuildingOption(Traits="Firearm",MinimumLevel=0,MaximumLevel=5)`
+`#ZOOP#DeckbuildingOption(TextExact="Firearm",MinimumLevel=0,MaximumLevel=5)`
 
 **Tony Morgan**
 
 Secondary class (the below line wrapping is a documentation artifact. Zoop instructions must be on a a single line)
 
-`#TTSZ#DeckbuildingOption(Classes="Rogue,Neutral",MinimumLevel=0,MaximumLevel=5)`\
-`#TTSZ#DeckbuildingOption(Name="Secondary Class",FactionSelect="Guardian,Seeker,Survivor",`<br>`MinimumLevel=0,MaximumLevel=1,CardCountLimit=10,CardTypes="Event,Skill")`
+`#ZOOP#DeckbuildingOption(Classes="Rogue,Neutral",MinimumLevel=0,MaximumLevel=5)`\
+`#ZOOP#DeckbuildingOption(Name="Secondary Class",FactionSelect="Guardian,Seeker,Survivor",`<br>`MinimumLevel=0,MaximumLevel=1,CardCountLimit=10,CardTypes="Event,Skill")`
 
 **Versatile**
 
 A card altering deck-building
 
-`#TTSZ#DeckbuildingOption(MinimumLevel=0,MaximumLevel=0,CardCountLimit=1)`
+`#ZOOP#DeckbuildingOption(MinimumLevel=0,MaximumLevel=0,CardCountLimit=1)`
 
 ## Instruction - DeckbuildingRequirements
 
@@ -326,7 +328,7 @@ Parameters:
 
 ### Example
 
-`#TTSZ#DeckbuildingRequirements(DeckSize=30)`
+`#ZOOP#DeckbuildingRequirements(DeckSize=30)`
 
 ## Instruction - Override encounter set details
 
@@ -344,7 +346,7 @@ Parameters:
 
 ### Example
 
-`#TTSZ#EncounterSet(Name="Chilling Cold")`
+`#ZOOP#EncounterSet(Name="Chilling Cold")`
 
 ## Instruction - Starts in play
 
@@ -356,7 +358,7 @@ Parameters: None
 
 ### Example
 
-`#TTSZ#StartsInPlay`
+`#ZOOP#StartsInPlay`
 
 ## Instruction - Starts in hand
 
@@ -368,7 +370,7 @@ Parameters: None
 
 ### Example
 
-`#TTSZ#StartsInHand`
+`#ZOOP#StartsInHand`
 
 ## Instruction – Specify SCED location metadata
 
@@ -393,12 +395,12 @@ Instruction key: ScedMetadataLocation
 
 This example forces a card to act as a location that has a “MadeUp” icon and connects to the Triangle and Square location.
 
-`#TTSZ#ScedMetadataLocation(CardFace="Front",ForceLocationType="true",Icons="MadeUp",IconsAction="Replace",Connections="Triangle,Square",ConnectionsAction="Append")`
+`#ZOOP#ScedMetadataLocation(CardFace="Front",ForceLocationType="true",Icons="MadeUp",IconsAction="Replace",Connections="Triangle,Square",ConnectionsAction="Append")`
 
 This example adds a connection to the location with the “MadeUp” icon, for both the front and back faces of the card.
 
-`#TTSZ#ScedMetadataLocation(CardFace="Front",Connections="MadeUp",ConnectionsAction="Append")`
-`#TTSZ#ScedMetadataLocation(CardFace="Back",Connections="MadeUp",ConnectionsAction="Append")`
+`#ZOOP#ScedMetadataLocation(CardFace="Front",Connections="MadeUp",ConnectionsAction="Append")`
+`#ZOOP#ScedMetadataLocation(CardFace="Back",Connections="MadeUp",ConnectionsAction="Append")`
 
 ## Instruction – SCED metadata - extra token
 
@@ -418,4 +420,36 @@ Parameters:
 
 ### Example
 
-`#TTSZ#ScedMetadataExtraToken(ExtraToken="Fight")`
+`#ZOOP#ScedMetadataExtraToken(ExtraToken="Fight")`
+
+## Instruction – SCED metadata - uses override
+
+This instruction allows overriding the default **uses** metadata that Zoop generates. By default Zoop will scan the keywords field of the card for a construct such as `Uses (3 ammo).` This instruction allows overriding this logic to add uses metadata to cards that do not have it or override the default metadata generated by Zoop.
+
+Multiple instances of this instruction per card are supported.
+
+**Applies to TTS exports only**
+
+Instruction key: ScedMetadataUses
+
+Parameters:
+
+| Parameter key	| Details |
+| --- | --- |
+| UsesClass | Where in the metadata to add the uses. Valid values are `Card`, `LocationFront` and `LocationBack`. For example to tokens such as doom/clues/ammo to a treachery or player card uses `Card`. Only use LocationFront/Back when overriding Location cards
+| Count | Number of tokens
+| PerInvestigator | true or false. Whether the count is per investigator. Defaults to false
+| Token | The token to spawn. Consult the SCED metadata documentation for valid values
+| Type | The type of token to spawn. Consult the SCED metadata documentation for valid values
+
+### Examples
+
+This example places 3 clues on a card when it enters play
+
+`#ZOOP#ScedMetadataUses(UsesClass="Card", Count=3, Token="Resource", Type="Clue")`
+
+This example overrides the front face of a location to have both clues and doom and the back to have clues.
+
+`#ZOOP#ScedMetadataUses(UsesClass="LocationFront", Count=3, PerInvestigator=true, Token="Resource", Type="Clue")`
+`#ZOOP#ScedMetadataUses(UsesClass="LocationFront", Count=2, PerInvestigator=false, Token="Resource", Type="Doom")`
+`#ZOOP#ScedMetadataUses(UsesClass="LocationBack", Count=1, PerInvestigator=true, Token="Resource", Type="Clue")`
