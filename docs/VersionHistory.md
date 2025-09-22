@@ -5,7 +5,6 @@
 - Card model - Add support for skill and event story weaknesses
 - Card model - Exclude the card itself when linking bonded cards to better handle cases where a card links to a card with the same title
 - Instruction - Instructions lines should now begin '#ZOOP#' instead of '#TTSZ#'. Latter will still be supported but is considered legacy
-- Instruction - Fix issue with new ScedMetadataUses instruction
 - Instruction - Add new ScedMetadataUses instruction to allow overriding which tokens are spawned on cards in SCED
 - TTS export - Fix bug when updating an existing saved object where a Zoop GUID match does not exist so a title/description match is attempted but one or more Strange Eons source cards do not have a title
 - Automatic numbering - Fixed issue where cards with different custom image paths (with the same final part  of the path/filename) that are grouped within the same encounter set lose their encounter set grouping when sorting for automatic numbering
