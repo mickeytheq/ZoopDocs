@@ -1,5 +1,21 @@
 # Version History
 
+## 3.5 - 22nd September 2025
+
+- Card model - Add support for skill and event story weaknesses
+- Card model - Exclude the card itself when linking bonded cards to better handle cases where a card links to a card with the same title
+- Instruction - Instructions lines should now begin '#ZOOP#' instead of '#TTSZ#'. Latter will still be supported but is considered legacy
+- Instruction - Fix issue with new ScedMetadataUses instruction
+- Instruction - Add new ScedMetadataUses instruction to allow overriding which tokens are spawned on cards in SCED
+- TTS export - Fix bug when updating an existing saved object where a Zoop GUID match does not exist so a title/description match is attempted but one or more Strange Eons source cards do not have a title
+- Automatic numbering - Fixed issue where cards with different custom image paths (with the same final part  of the path/filename) that are grouped within the same encounter set lose their encounter set grouping when sorting for automatic numbering
+- Automatic numbering - Tweak how encounter set names are displayed and possibly fix an issue with spaces in the paths
+- arkham.build - Description text box is now larger and supports scrollable for very long lines/lots of lines without disrupting the overall dialog layout
+- arkham.build - Correctly populate the subtype_code as weakness for asset/story/event weaknesses
+- arkham.build - Add banner credit option to project settings
+- Search/replace - Clear the results grid when the mode is changed to prevent errors when doing a replace on items from a different search mode.
+- Image upload - Add more detailed debug logging when loading Steam API libraries
+
 ## 3.4 - 3rd July 2025
 
 - Search/replace - New feature that supports search/replacing across multiple cards and fields with plain-text, regular expression and image path options
