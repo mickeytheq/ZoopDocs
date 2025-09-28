@@ -87,6 +87,7 @@ The ordering logic is described below. The logic is described as set of rules li
     - Story Weakness Treacheries
     - Story Weakness Enemies
     - Stories
+    - Story Assets/Events/Skills with player card backs
     - Investigators
     - Everything else
 - Scenario/Rules page numbers
