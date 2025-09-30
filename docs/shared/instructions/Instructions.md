@@ -437,8 +437,8 @@ Parameters:
 | Parameter key	| Details |
 | --- | --- |
 | UsesClass | Where in the metadata to add the uses. Valid values are `Card`, `LocationFront` and `LocationBack`. For example to tokens such as doom/clues/ammo to a treachery or player card uses `Card`. Only use LocationFront/Back when overriding Location cards
-| Count | Number of tokens
-| PerInvestigator | true or false. Whether the count is per investigator. Defaults to false
+| Count | Absolute number of tokens
+| CountPerInvestigator | Number of tokens per investigator
 | Token | The token to spawn. Consult the SCED metadata documentation for valid values
 | Type | The type of token to spawn. Consult the SCED metadata documentation for valid values
 
