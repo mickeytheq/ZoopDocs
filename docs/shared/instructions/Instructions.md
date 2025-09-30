@@ -450,6 +450,6 @@ This example places 3 clues on a card when it enters play
 
 This example overrides the front face of a location to have both clues and doom and the back to have clues.
 
-`#ZOOP#ScedMetadataUses(UsesClass="LocationFront", Count=3, PerInvestigator=true, Token="Resource", Type="Clue")`
-`#ZOOP#ScedMetadataUses(UsesClass="LocationFront", Count=2, PerInvestigator=false, Token="Resource", Type="Doom")`
-`#ZOOP#ScedMetadataUses(UsesClass="LocationBack", Count=1, PerInvestigator=true, Token="Resource", Type="Clue")`
+`#ZOOP#ScedMetadataUses(UsesClass="LocationFront", CountPerInvestigator=3, Token="Resource", Type="Clue")`
+`#ZOOP#ScedMetadataUses(UsesClass="LocationFront", Count=2, Token="Resource", Type="Doom")`
+`#ZOOP#ScedMetadataUses(UsesClass="LocationBack", CountPerInvestigator=1, Token="Resource", Type="Clue")`
