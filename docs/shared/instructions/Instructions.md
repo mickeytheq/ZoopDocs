@@ -442,14 +442,16 @@ Parameters:
 | Token | The token to spawn. Consult the SCED metadata documentation for valid values
 | Type | The type of token to spawn. Consult the SCED metadata documentation for valid values
 
+See [SCED metdata](https://github.com/argonui/SCED/wiki/Metadata) for possible values of Token and Type.
+
 ### Examples
 
 This example places 3 clues on a card when it enters play
 
-`#ZOOP#ScedMetadataUses(UsesClass="Card", Count=3, Token="Resource", Type="Clue")`
+`#ZOOP#ScedMetadataUses(UsesClass="Card", Count=3, Token="clue", Type="Clue")`
 
 This example overrides the front face of a location to have both clues and doom and the back to have clues.
 
-`#ZOOP#ScedMetadataUses(UsesClass="LocationFront", CountPerInvestigator=3, Token="Resource", Type="Clue")`
-`#ZOOP#ScedMetadataUses(UsesClass="LocationFront", Count=2, Token="Resource", Type="Doom")`
-`#ZOOP#ScedMetadataUses(UsesClass="LocationBack", CountPerInvestigator=1, Token="Resource", Type="Clue")`
+`#ZOOP#ScedMetadataUses(UsesClass="LocationFront", CountPerInvestigator=3, Token="clue", Type="Clue")`
+`#ZOOP#ScedMetadataUses(UsesClass="LocationFront", Count=2, Token="doom", Type="Doom")`
+`#ZOOP#ScedMetadataUses(UsesClass="LocationBack", CountPerInvestigator=1, Token="clue", Type="Clue")`
