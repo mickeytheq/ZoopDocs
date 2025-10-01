@@ -12,14 +12,14 @@ Disclaimer: The recommended option is based on community feedback and my own int
 
 | Image host | Recommended | Setup complexity | Free option? | Rate-limiting? | Notes |
 | --- | --- | --- | --- | --- | --- |
-| [Imgur](Imgur.md) | No | Low | Yes | Yes | No longer available in the UK so should be avoided |
+| [Imgur](Imgur.md) | **No** | Low | Yes | Yes | No longer available in the UK so should be avoided |
 | [Imgbb](Imgbb.md) | Yes^ | Low | Yes | Yes | Long-term reliability issues occasionally reported |
 | [Cloudinary](Cloudinary.md) | Yes | Low | Yes | Yes | |
 | [Dropbox](DropboxOAuth.md) | Yes | Medium | Yes^ | Unknown | Free-option with limited space |
 | [Steam Cloud](SteamCloud.md) | Yes^ | Medium | Yes | Unknown | Recently added, limited testing. Unusual configuration/pre-requisites, consult the link for details |
 | [AWS S3](AwsS3.md) | Yes^ | High | Yes^ | No | Advanced users only. Free-option with time-limited free-tier only |
 | [Cloudflare R2](CloudflareR2.md) | Yes^ | High | Yes^ | No | Advanced users only. Free-option with time-limited free-tier only |
-| [FTP](Ftp.md) | No | High | No | No | For advanced uses/niche use cases only |
+| [FTP](Ftp.md) | **No** | High | No | No | For advanced uses/niche use cases only |
 | [Local](Local.md) | Yes^ | Low | N/A | N/A | Suitable for local testing |
 
 ## Rate-limiting
