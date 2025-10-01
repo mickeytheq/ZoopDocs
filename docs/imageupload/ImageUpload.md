@@ -12,7 +12,7 @@ Disclaimer: The recommended option is based on community feedback and my own int
 
 | Image host | Recommended | Setup complexity | Free option? | Rate-limiting? | Notes |
 | --- | --- | --- | --- | --- | --- |
-| [Imgur](Imgur.md) | Yes | Low | Yes | Yes | |
+| [Imgur](Imgur.md) | No | Low | Yes | Yes | No longer available in the UK so should be avoided |
 | [Imgbb](Imgbb.md) | Yes^ | Low | Yes | Yes | Long-term reliability issues occasionally reported |
 | [Cloudinary](Cloudinary.md) | Yes | Low | Yes | Yes | |
 | [Dropbox](DropboxOAuth.md) | Yes | Medium | Yes^ | Unknown | Free-option with limited space |
