@@ -1,5 +1,7 @@
 # Imgur image upload
 
+**No longer available in the UK so should be avoided.**
+
 Imgur is a pretty standard cloud host that offers free image hosting.
 
 ## Usage
