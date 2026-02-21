@@ -1,5 +1,22 @@
 # Version History
 
+## 3.6 - 21st February 2026
+
+- UX - Add a confirmation dialog when cancelling in the progress dialog
+- UX - Improve the default behaviour of the file chooser to select a more sensible default directory
+- Steam image upload - Add a configurable timeout to wait for an upload to complete
+- Model/TTS/arkham.build - Update resource cost of cards to be a string and map appropriately to TTS/arkham.build metadata
+- TTS export - Fix minicard metadata to only have the Minicard tag
+- TTS export - Add health and sanity stats to investigator metadata
+- arkham.build - Replace <hsp> and <thsp> with a single space
+- arkham.build - Strip all tags except a specific whitelist
+- arkham.build - Fix an issue with resolving file identifiers created on one filesystem when running on a different filesystem, e.g. encounter set image paths
+- Print and play - Make the output filenames in print ready mode more consistent with MPC mode
+- Search/replace - Add traits to the list of searchable fields
+- Search/replace - Add investigator back field to the list of searchable fields
+- Search/replace - Add ability to only replace a sub-set of the searched items
+- Automatic numbering - No longer fail when multiple cards have the same collection number ranges, e.g. two card with 1-2
+
 ## 3.5 - 22nd September 2025
 
 - Card model - Add support for skill and event story weaknesses
