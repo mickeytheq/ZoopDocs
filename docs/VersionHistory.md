@@ -9,6 +9,7 @@
 - TTS export - Fix minicard metadata to only have the Minicard tag
 - TTS export - Add health and sanity stats to investigator metadata
 - arkham.build - Replace <hsp> and <thsp> with a single space
+- arkham.build/Instruction - Add arkham.build BuildQL query parameter to DeckbuildingOption instruction 
 - arkham.build - Strip all tags except a specific whitelist
 - arkham.build - Fix an issue with resolving file identifiers created on one filesystem when running on a different filesystem, e.g. encounter set image paths
 - Print and play - Make the output filenames in print ready mode more consistent with MPC mode
